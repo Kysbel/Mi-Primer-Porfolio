@@ -7,5 +7,32 @@
     box-sizing: border-box;
 }
 
-/* MENÚ DE NAVEGACIÓN */
+Body{
+    height: 100%vh;
+}
 
+
+/* MENÚ DE NAVEGACIÓN */
+nav{
+    height: 20%;
+    background-color:  rgb(235, 235, 235);
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li{
+   display: inline-block;
+   font-size: 20px;
+   margin: 20px;
+}
+
+a{
+  text-decoration: none;  
+  color: black ;
+}
+
+.botón_menú{
+    padding: 8px;
+}
