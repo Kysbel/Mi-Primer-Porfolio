@@ -9,6 +9,7 @@
 
 Body{
     height: 100%vh;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 
@@ -59,6 +60,53 @@ main{
     height: 60%;
 }
 
-.presentación{
+#presentación{
     height: 12%;
+    display: flex;
+    justify-content: space-between;
+    background-color:antiquewhite;
+    padding-bottom: 90px;
 }
+
+.presentación_datos{
+    width: 85%;
+    padding: 80px 65px;
+}
+
+.datos{
+    font-size: 50px;
+}
+
+.presentación_descripción{
+    font-size: 25px;
+    margin: 10px;
+}
+
+h1{
+    font-size: 70px;
+}
+
+.boton-presentación{
+    border-radius: 100px;
+    border-bottom: transparent;
+    font-size: 18px;
+    width: 180px;
+    cursor: pointer;
+    background-color: rgb(158, 64, 73);
+ 
+}
+
+a .boton-presentación{
+     padding: 10px;
+}
+
+a .boton-presentación:hover{
+    background-color: rgb(255, 153, 0);
+}
+
+.presentación_foto{
+    height: 90px;
+    padding-right: 45px;
+}
+
+/* FIN DE LA 1° SECCIÓN: PRESENTACIÓN */
