@@ -269,3 +269,32 @@ a .boton-presentación:hover{
 }
 
 /* 3° SECCIÓN: CITA PERSONAL */
+.cita{
+    width: 100%;
+    height: 12%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.cita:hover{
+    background-color: rgb(247, 198, 215);
+}
+
+.párrafo_cita{
+    font-size: 55px; 
+    padding-top: 50px;
+}
+
+.párrafo_cita:hover{
+    color: rgb(255, 153, 0);
+}
+
+.autor_cita{
+    font-size: 55px;
+    padding-bottom: 20px;
+}
