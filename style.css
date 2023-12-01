@@ -9,6 +9,7 @@
 
 Body{
     height: 100%vh;
+    width: 100%vw;
     font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -16,12 +17,15 @@ Body{
 /* MENÚ DE NAVEGACIÓN */
 nav{
     height: 20%;
+    width: 100%;
     background-color:  rgb(235, 235, 235);
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end; 
     align-items: center;  
-    font-family: 'Nunito Sans', sans-serif;
-}
+    font-family: 'Nunito Sans', sans-serif; 
+    /* background-attachment: fixed; */
+} 
 
 ul li{
    display: inline-block;
@@ -49,7 +53,7 @@ ul li a:hover{
 
 .botón_menú:hover{
     background-color: rgb(255, 153, 0);
-}
+}  */ */
 /* FIN DEL MENÚ DE NAVEGACIÓN */
 
 
@@ -63,9 +67,10 @@ main{
 #presentación{
     height: 12%;
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     background-color:antiquewhite;
-    padding-bottom: 90px;
+    padding-bottom: 90px; 
 }
 
 .presentación_datos{
@@ -108,5 +113,4 @@ a .boton-presentación:hover{
     height: 90px;
     padding-right: 45px;
 }
-
 /* FIN DE LA 1° SECCIÓN: PRESENTACIÓN */
