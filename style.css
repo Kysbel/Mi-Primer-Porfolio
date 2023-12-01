@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 Body{
@@ -287,7 +288,7 @@ a .boton-presentación:hover{
 }
 
 .párrafo_cita{
-    font-size: 55px; 
+    font-size: 45px; 
     padding-top: 50px;
 }
 
@@ -296,7 +297,7 @@ a .boton-presentación:hover{
 }
 
 .autor_cita{
-    font-size: 55px;
+    font-size: 40px;
     padding-bottom: 20px;
 }
 
@@ -311,6 +312,17 @@ a .boton-presentación:hover{
    padding-top: 90px;
 } 
 
+/* Contenedor de la section "mis_proyectos" */
+.Container_mis_proyectos{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    margin: 50px;
+    background-color:rgb(238, 238, 238)e;
+ }
+
 .h2_mis_proyectos{
     font-size: 65px;
     margin: auto;
@@ -321,14 +333,183 @@ a .boton-presentación:hover{
     font-size: 35px;
     padding-left: 80px; 
     margin: auto;
-    text-align: center;
 }
 
-.Container_mis_proyectos{
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
+/* 1° Div */
+.Kysbel_Romero{
+    width: 30%;
+    border: 1px solid #e0e0e0;
+    border-radius:  10px; 
     text-align: center;
-    margin: 50px;
+    background-color: rgb(238, 238, 238);
+    margin-bottom: 30px;
+    cursor: pointer;
 }
 
+.Kysbel_Romero:hover{
+    background-color: antiquewhite;
+}
+
+.foto_Kysbel_Romero{
+    width: 100%;
+    height: 80%;
+    display: block;
+}
+
+.p_Kysbel_Romero{
+    font-size: 20px;
+}
+
+/* 2° Div */
+.Generador_memes{
+    width: 30%;
+    border: 1px solid #e0e0e0;
+    border-radius:  10px; 
+    text-align: center;
+    background-color: rgb(238, 238, 238); 
+    margin-bottom: 30px;  
+    cursor: pointer;
+}
+
+.Generador_memes:hover{
+    background-color: antiquewhite;
+}
+
+.foto_Generador_memes{
+    width: 100%;
+    height: 80%;
+    display: block;
+}
+
+.p_Generador_memes{
+    font-size: 20px;
+}
+
+/* 3° Div */
+.Match_3{
+    width: 30%;
+    border: 1px solid #e0e0e0;
+    border-radius:  10px; 
+    text-align: center;
+    background-color: rgb(238, 238, 238);  
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.Match_3:hover{
+    background-color: antiquewhite;
+}
+
+.foto_Match_3{
+    width: 100%;
+    height: 80%;
+    display: block;
+    padding-top: 5px;
+}
+
+.p_Match{
+    font-size: 20px;
+}
+
+/* 4° Div */
+.Controlador_de_Gastos{
+    width: 30%;
+    border: 1px solid #e0e0e0;
+    border-radius:  10px; 
+    text-align: center;
+    background-color: rgb(238, 238, 238);  
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.Controlador_de_Gastos:hover{
+    background-color:  antiquewhite;
+}
+
+.foto_Controlador_de_Gastos{
+    width: 100%;
+    height: 80%;
+    display: block;
+    padding-top: 30px;
+}
+
+.p_Controlador_de_Gastos{
+    font-size: 20px;
+}
+
+/* 5° Div */
+.Administrador_de_Reuniones{
+    width: 30%;
+    border: 1px solid #e0e0e0;
+    border-radius:  10px; 
+    text-align: center;
+    background-color: rgb(238, 238, 238); 
+    margin-bottom: 30px; 
+    cursor: pointer;
+}
+
+.Administrador_de_Reuniones:hover{
+   background-color:  antiquewhite; 
+}
+
+.foto_Administrador_de_Reuniones{
+    width: 100%;
+    height: 80%;
+    display: block;
+}
+
+.p_Controlador_de_Gastos{
+    font-size: 20px;
+}
+
+/* 6° Div */
+.Todo_app{
+    width: 30%;
+    border: 1px solid #e0e0e0;
+    border-radius:  10px; 
+    text-align: center;
+    background-color: antiquewhite; 
+    margin-bottom: 30px; 
+    cursor: pointer;
+}
+
+.Todo_app:hover{
+    background-color: antiquewhite;
+}
+
+.foto_Todo_app{
+    width: 100%;
+    height: 80%;
+    display: block;
+}
+
+.p_Todo_app{
+    font-size: 20px;
+}
+
+/* 7° Div */
+.Buscador_de_películas{
+    width: 30%;
+    border: 1px solid #e0e0e0;
+    border-radius:  10px;
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.Buscador_de_películas:hover{
+    background-color: antiquewhite;
+}
+
+
+.foto_Buscador_de_películas{
+    width: 100%;
+    height: 80%;
+    display: block;
+}
+
+.p_Buscador_de_películas{
+    font-size: 20px;
+}
+/* FIN DE LA SECCIÓN: MIS PROYECTOS */
