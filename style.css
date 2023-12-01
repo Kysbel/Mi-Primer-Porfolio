@@ -50,3 +50,15 @@ ul li a:hover{
     background-color: rgb(255, 153, 0);
 }
 /* FIN DEL MENÚ DE NAVEGACIÓN */
+
+
+/* INICIO DE SECCIONES (MAIN) */
+    /* 1° SECCIÓN: PRESENTACIÓN */
+
+main{
+    height: 60%;
+}
+
+.presentación{
+    height: 12%;
+}
