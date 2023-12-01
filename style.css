@@ -114,3 +114,158 @@ a .boton-presentación:hover{
     padding-right: 45px;
 }
 /* FIN DE LA 1° SECCIÓN: PRESENTACIÓN */
+
+/* 2° SECCIÓN: CONOCIMIENTOS */
+
+#Mis_Conocimientos{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    display: block;
+    padding: 60px 45px;
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+}
+
+.h2_mis_conocimientos{
+    font-size: 55px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.texto_mis_conocimientos{
+  font-size: 25px;
+  padding-top: 30px;
+}
+
+.Container_mis_conocimientos{
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 50px;
+}
+
+.html{
+    width: 30%;
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(243, 242, 229);
+    margin: 10px;
+}
+
+.html:hover{
+    background-color: rgb(221, 219, 191); 
+}
+
+.h3_html{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.css{
+    width: 30%;
+    height: 300px;
+    border: 3px;
+    border-radius:  10px;
+    text-align: center;
+    background-color: rgb(243, 242, 229);
+    margin: 10px;
+}
+
+.css:hover{
+    background-color: rgb(221, 219, 191); 
+}
+
+.h3_css{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.Sass{
+    width: 30%;
+    height: 300px;
+    border: 3px;
+    border-radius:  10px;
+    text-align: center;
+    background-color: rgb(243, 242, 229);
+    margin: 10px;
+}
+
+.Sass:hover{
+    background-color: rgb(221, 219, 191); 
+}
+
+.h3_Sass{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.Javascript{
+    width: 30%;
+    height: 300px;
+    border: 3px;
+    border-radius:  10px;
+    text-align: center;
+    background-color: rgb(243, 242, 229);
+    /* background-color: rgb(221, 219, 191); */
+    margin: 10px;
+}
+
+.Javascript:hover{
+    background-color: rgb(221, 219, 191); 
+}
+
+.h3_Javascript{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.React{
+    width: 30%;
+    height: 300px;
+    border: 3px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(243, 242, 229);
+    /* background-color: rgb(221, 219, 191); */
+    margin: 10px;
+}
+
+.React:hover{
+    background-color: rgb(221, 219, 191); 
+}
+
+.h3_React{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.Git{
+    width: 30%;
+    height: 300px;
+    border: 3px;
+    border-radius: 10px;
+    text-align: center;
+    /* background-color: rgb(221, 219, 191); */
+    background-color: rgb(243, 242, 229);
+    margin: 10px;
+}
+
+.Git:hover{
+    background-color: rgb(221, 219, 191); 
+}
+
+.h3_Git{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.fa-brands{
+    font-size: 120px;
+    margin-top: 18%;
+}
+
+/* 3° SECCIÓN: CITA PERSONAL */
