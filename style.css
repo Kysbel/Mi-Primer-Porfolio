@@ -19,7 +19,7 @@ nav{
     display: flex;
     justify-content: flex-end; 
     align-items: center;  
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 ul li{
@@ -28,11 +28,25 @@ ul li{
    margin: 20px;
 }
 
-a{
+ul li a{
   text-decoration: none;  
   color: black ;
 }
 
-.botón_menú{
-    padding: 8px;
+ul li a:hover{
+    color:rgb(255, 153, 0);
 }
+
+.botón_menú{
+    font-size: 18px;
+    border-radius: 25px;
+    border-bottom: transparent;
+    background-color: rgb(158, 64, 73);
+    cursor:pointer;
+    padding: 10px;
+}
+
+.botón_menú:hover{
+    background-color: rgb(255, 153, 0);
+}
+/* FIN DEL MENÚ DE NAVEGACIÓN */
