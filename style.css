@@ -127,6 +127,7 @@ a .boton-presentación:hover{
     padding: 60px 45px;
     background-color: rgb(238, 238, 238);
     text-align: center;
+    cursor: pointer;
 }
 
 .h2_mis_conocimientos{
@@ -298,3 +299,36 @@ a .boton-presentación:hover{
     font-size: 55px;
     padding-bottom: 20px;
 }
+
+/* 4° SECCIÓN */
+#mis_proyectos {
+   width: 100%;
+   height: 12%;
+   display: flex;
+   flex-wrap: wrap;
+   background-color: rgb(238, 238, 238);
+   text-align: center;
+   padding-top: 90px;
+} 
+
+.h2_mis_proyectos{
+    font-size: 65px;
+    margin: auto;
+    text-align: center;
+}
+
+.p_mis_proyectos{
+    font-size: 35px;
+    padding-left: 80px; 
+    margin: auto;
+    text-align: center;
+}
+
+.Container_mis_proyectos{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 50px;
+}
+
