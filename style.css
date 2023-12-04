@@ -423,7 +423,7 @@ a .boton-presentación:hover{
 }
 
 .Controlador_de_Gastos:hover{
-    background-color:  antiquewhite;
+    background-color:antiquewhite;
 }
 
 .foto_Controlador_de_Gastos{
@@ -458,23 +458,23 @@ a .boton-presentación:hover{
     display: block;
 }
 
-.p_Controlador_de_Gastos{
+.p_Administrador_de_Reuniones{
     font-size: 20px;
 }
 
 /* 6° Div */
 .Todo_app{
     width: 30%;
-    border: 1px solid #e0e0e0;
+    border: 2px solid #e0e0e0;
     border-radius:  10px; 
     text-align: center;
-    background-color: antiquewhite; 
     margin-bottom: 30px; 
     cursor: pointer;
 }
 
 .Todo_app:hover{
     background-color: antiquewhite;
+  
 }
 
 .foto_Todo_app{
@@ -513,3 +513,47 @@ a .boton-presentación:hover{
     font-size: 20px;
 }
 /* FIN DE LA SECCIÓN: MIS PROYECTOS */
+
+/* 5° SECCIÓN: FORMULARIOS */
+
+#Contáctame{
+    width: 100%;
+    height: 12%;
+    
+}
+
+.Container_Contáctame{
+    width: 80%;
+    display: flex;
+    text-align: left;
+    background-color: antiquewhite;
+    border-radius: 8px;    
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding: 80px 60px;
+}
+
+.formulario_contáctame{
+    display: block;
+    width: 50%;
+}
+
+.enlaces_formulario{
+    /* display: block; */  
+}
+
+/* .fa-linkedin-in:before */
+/* .fa-instagram:before
+.fa-github-alt:before
+fa-solid fa-envelope  */
+
+/* .p_formulario{
+    margin: auto;
+} */
+
+/* FOOTER */
+footer{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+}
