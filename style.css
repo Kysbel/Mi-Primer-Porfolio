@@ -519,7 +519,6 @@ a .boton-presentación:hover{
 #Contáctame{
     width: 100%;
     height: 12%;
-    
 }
 
 .Container_Contáctame{
@@ -531,18 +530,94 @@ a .boton-presentación:hover{
     margin: auto;
     margin-top: 70px;
     margin-bottom: 70px;
-    padding: 80px 60px;
-    
+    padding: 80px 60px;   
+}
+/* Mis Redes Sociales */
+.formulario_contáctame{
+    display: inline-block;
+    width:50%;
 }
 
-.formulario_contáctame{
-    display:inline-block;
-    width: 50%;
-    background-color: blueviolet;
+.h2_formulario{
+    font-size: 40px;
+    padding-bottom: 10px;
 }
 
 .p_formulario{
-    margin: auto;
+    font-size: 18px; 
+    padding-bottom: 10px;
+}
+
+.enlaces_formulario a{ 
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px;
+}
+
+/* Formulario */
+.formulario_escríbeme{
+    /* background-color: blueviolet; */
+    width: 50%;
+    padding-left: 25px;
+}
+
+.h2_formulario_escríbeme{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+input{
+    border: 5px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.input_container{
+    margin-bottom: 18px;
+    padding: 10px;
+}
+
+.formulario_escríbeme_nombreyapellido{
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+.input_container_email{
+    flex-grow: initial;
+    display: block;
+    flex-direction: column;
+    font-size: 18px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+.input_email{
+    padding: 12px 100px;
+}
+
+textarea{
+    border: 2px;
+    border-radius: 10px;
+}
+
+.placeholder{
+    font-size: 28px;
+}
+
+input[type="submit"]{
+    padding: 10px 35px;
+    border: 5px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color:rgb(247, 198, 215);
+    font-size: 16px;
+}
+
+input[type="submit"]:hover{
+    background-color:  rgb(255, 153, 0);
 }
 
 /* FOOTER */
