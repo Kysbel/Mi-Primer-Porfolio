@@ -532,21 +532,14 @@ a .boton-presentación:hover{
     margin-top: 70px;
     margin-bottom: 70px;
     padding: 80px 60px;
+    
 }
 
 .formulario_contáctame{
-    display: block;
+    display:inline-block;
     width: 50%;
+    background-color: blueviolet;
 }
-
-.enlaces_formulario{
-    /* display: block; */  
-}
-
-/* .fa-linkedin-in:before */
-/* .fa-instagram:before
-.fa-github-alt:before
-fa-solid fa-envelope  */
 
 .p_formulario{
     margin: auto;
@@ -559,7 +552,48 @@ footer{
     background-color: rgb(238, 238, 238);
 } 
 
+/* Contenedor principal */
 .Container_footer{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 85px; 
 }
+
+/* Enlaces internos */
+.enlaces_internos_footer a{
+    margin: 36px;
+    padding-bottom: 55px;
+    font-size: 20px;
+}
+
+.enlaces_internos_footer a:hover{
+    color: rgb(255, 153, 0);
+}
+
+/* Enlaces a mis redes */
+.enlaces_mis_redes_footer{
+    margin: 40px;
+}
+
+.enlaces_mis_redes_footer a{
+    padding: 55px 35px;
+    margin: 15px;
+}
+
+.GitHub:hover{
+    border-radius:50% ;    
+    text-align: center;
+}
+
+.Email:hover{
+    border-radius:65%;
+}
+
+/* .Email:hover{
+    border-radius: 55px;
+    background-color: rgb(255, 153, 0); 
+} */
