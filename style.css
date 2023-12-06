@@ -6,27 +6,25 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-}
+ }
+
 
 Body{
-    height: 100%vh;
-    width: 100%vw;
+    height: 100%vh; 
     font-family: 'Nunito Sans', sans-serif;
 }
 
-
 /* MENÚ DE NAVEGACIÓN */
+
 nav{
     height: 20%;
-    width: 100%;
     background-color:  rgb(235, 235, 235);
     display: flex;
-    flex-wrap: wrap;
     justify-content: flex-end; 
     align-items: center;  
-    font-family: 'Nunito Sans', sans-serif; 
-    /* background-attachment: fixed; */
-} 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+}
 
 ul li{
    display: inline-block;
@@ -44,10 +42,11 @@ ul li a:hover{
 }
 
 .botón_menú{
+    padding: 8px;
     font-size: 18px;
-    border: 5px;
+    border:3px;
     border-radius: 25px;
-    border-bottom: transparent; 
+    border-bottom: transparent;
     background-color: rgb(158, 64, 73);
     cursor:pointer;
     padding: 10px;
@@ -55,69 +54,68 @@ ul li a:hover{
 
 .botón_menú:hover{
     background-color: rgb(255, 153, 0);
-}  */ */
+}
 /* FIN DEL MENÚ DE NAVEGACIÓN */
-
 
 /* INICIO DE SECCIONES (MAIN) */
     /* 1° SECCIÓN: PRESENTACIÓN */
-
-main{
-    height: 60%;
-}
-
-#presentación{
-    height: 12%;
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: space-between;
-    background-color:antiquewhite;
-    padding-bottom: 90px; 
-}
-
-.presentación_datos{
-    width: 85%;
-    padding: 80px 65px;
-}
-
-.datos{
-    font-size: 50px;
-}
-
-.presentación_descripción{
-    font-size: 25px;
-    margin: 10px;
-}
-
-h1{
-    font-size: 70px;
-}
-
-.boton-presentación{
-    border: 5px;
-    border-radius: 100px;
-    border-bottom: transparent; 
-    font-size: 18px;
-    width: 180px;
-    cursor: pointer;
-    background-color: rgb(158, 64, 73);
-}
-
-a .boton-presentación{
-     padding: 10px;
-}
-
-a .boton-presentación:hover{
-    background-color: rgb(255, 153, 0);
-}
-
-.presentación_foto{
-    height: 90px;
-    padding-right: 45px;
-}
-/* FIN DE LA 1° SECCIÓN: PRESENTACIÓN */
-
-/* 2° SECCIÓN: CONOCIMIENTOS */
+   main{
+        height: 60%;
+    }
+    
+    #presentación{
+        height: 12%; 
+        display: flex;
+        justify-content: space-between;
+        background-color:antiquewhite;
+        padding-bottom: 90px;
+    }
+       
+    .presentación_datos{
+        width: 85%;
+        padding: 80px 65px;
+    }
+    
+    .datos{
+        font-size: 50px;
+    }
+    
+    .presentación_descripción{
+        font-size: 25px;
+        margin: 10px;
+    }
+    
+    h1{
+        font-size: 70px;
+    }
+    
+    .boton-presentación{
+        border: 3px;
+        border-radius: 100px;
+        border-bottom: transparent;
+        font-size: 18px;
+        width: 180px;
+        cursor: pointer;
+        background-color: rgb(158, 64, 73);
+    
+    }
+    
+    a .boton-presentación{
+         padding: 10px;
+    }
+    
+    a .boton-presentación:hover{
+        background-color: rgb(255, 153, 0);
+    }
+    
+    .presentación_foto{
+        height: 90px;
+        padding-right: 45px;
+    }
+ /* FIN DE LA 1° SECCIÓN: PRESENTACIÓN *
+   
+ 
+ /* 2° SECCIÓN: CONOCIMIENTOS */
 
 #Mis_Conocimientos{
     width: 100%;
@@ -129,7 +127,6 @@ a .boton-presentación:hover{
     padding: 60px 45px;
     background-color: rgb(238, 238, 238);
     text-align: center;
-    cursor: pointer;
 }
 
 .h2_mis_conocimientos{
@@ -289,7 +286,7 @@ a .boton-presentación:hover{
 }
 
 .párrafo_cita{
-    font-size: 45px; 
+    font-size: 55px; 
     padding-top: 50px;
 }
 
@@ -298,224 +295,192 @@ a .boton-presentación:hover{
 }
 
 .autor_cita{
-    font-size: 40px;
+    font-size: 55px;
     padding-bottom: 20px;
 }
 
 /* 4° SECCIÓN */
 #mis_proyectos {
-   width: 100%;
-   height: 12%;
-   display: flex;
-   flex-wrap: wrap;
-   background-color: rgb(238, 238, 238);
-   text-align: center;
-   padding-top: 90px;
-} 
-
-/* Contenedor de la section "mis_proyectos" */
-.Container_mis_proyectos{
-    width: 90%;
+    width: 100%;
+    height: 12%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    background-color: rgb(238, 238, 238);
     text-align: center;
-    margin: 50px;
-    background-color:rgb(238, 238, 238)e;
+    padding-top: 90px;
+ } 
+ /* Contenedor de la section "mis_proyectos" */
+ .Container_mis_proyectos{
+     width: 90%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     text-align: center;
+     margin: 50px;
+     background-color:rgb(238, 238, 238)e;
+  }
+ .h2_mis_proyectos{
+     font-size: 65px;
+     margin: auto;
+     text-align: center;
  }
+ .p_mis_proyectos{
+     font-size: 35px;
+     padding-left: 80px; 
+     margin: auto;
+ }
+ /* 1° Div */
+ .Kysbel_Romero{
+     width: 30%;
+     border: 1px solid #e0e0e0;
+     border-radius:  10px; 
+     text-align: center;
+     background-color: rgb(238, 238, 238);
+     margin-bottom: 30px;
+     cursor: pointer;
+ }
+ .Kysbel_Romero:hover{
+     background-color: antiquewhite;
+ }
+ .foto_Kysbel_Romero{
+     width: 100%;
+     height: 80%;
+     display: block;
+ }
+ .p_Kysbel_Romero{
+     font-size: 20px;
+ }
+ /* 2° Div */
+ .Generador_memes{
+     width: 30%;
+     border: 1px solid #e0e0e0;
+     border-radius:  10px; 
+     text-align: center;
+     background-color: rgb(238, 238, 238); 
+     margin-bottom: 30px;  
+     cursor: pointer;
+ }
+ .Generador_memes:hover{
+     background-color: antiquewhite;
+ }
+ .foto_Generador_memes{
+     width: 100%;
+     height: 80%;
+     display: block;
+ }
+ .p_Generador_memes{
+     font-size: 20px;
+ }
+ /* 3° Div */
+ .Match_3{
+     width: 30%;
+     border: 1px solid #e0e0e0;
+     border-radius:  10px; 
+     text-align: center;
+     background-color: rgb(238, 238, 238);  
+     margin-bottom: 30px;
+     cursor: pointer;
+ }
+ .Match_3:hover{
+     background-color: antiquewhite;
+ }
+ .foto_Match_3{
+     width: 100%;
+     height: 80%;
+     display: block;
+     padding-top: 5px;
+ }
+ .p_Match{
+     font-size: 20px;
+ }
+ /* 4° Div */
+ .Controlador_de_Gastos{
+     width: 30%;
+     border: 1px solid #e0e0e0;
+     border-radius:  10px; 
+     text-align: center;
+     background-color: rgb(238, 238, 238);  
+     margin-bottom: 30px;
+     cursor: pointer;
+ }
+ .Controlador_de_Gastos:hover{
+     background-color:antiquewhite;
+ }
+ .foto_Controlador_de_Gastos{
+     width: 100%;
+     height: 80%;
+     display: block;
+     padding-top: 30px;
+ }
+ .p_Controlador_de_Gastos{
+     font-size: 20px;
+ }
+ /* 5° Div */
+ .Administrador_de_Reuniones{
+     width: 30%;
+     border: 1px solid #e0e0e0;
+     border-radius:  10px; 
+     text-align: center;
+     background-color: rgb(238, 238, 238); 
+     margin-bottom: 30px; 
+     cursor: pointer;
+ }
+ .Administrador_de_Reuniones:hover{
+    background-color:  antiquewhite; 
+ }
+ .foto_Administrador_de_Reuniones{
+     width: 100%;
+     height: 80%;
+     display: block;
+ }
+ .p_Administrador_de_Reuniones{
+     font-size: 20px;
+ }
+ /* 6° Div */
+ .Todo_app{
+     width: 30%;
+     border: 2px solid #e0e0e0;
+     border-radius:  10px; 
+     text-align: center;
+     margin-bottom: 30px; 
+     cursor: pointer;
+ }
+ .Todo_app:hover{
+     background-color: antiquewhite;
+   
+ }
+ .foto_Todo_app{
+     width: 100%;
+     height: 80%;
+     display: block;
+ }
+ .p_Todo_app{
+     font-size: 20px;
+ }
+ /* 7° Div */
+ .Buscador_de_películas{
+     width: 30%;
+     border: 1px solid #e0e0e0;
+     border-radius:  10px;
+     text-align: center;
+     background-color: rgb(238, 238, 238);
+     margin-bottom: 30px;
+     cursor: pointer;
+ }
+ .Buscador_de_películas:hover{
+     background-color: antiquewhite;
+ }
+ .foto_Buscador_de_películas{
+     width: 100%;
+     height: 80%;
+     display: block;
+ }
+ .p_Buscador_de_películas{
+     font-size: 20px;
+ }
+ /* FIN DE LA SECCIÓN: MIS PROYECTOS */
 
-.h2_mis_proyectos{
-    font-size: 65px;
-    margin: auto;
-    text-align: center;
-}
-
-.p_mis_proyectos{
-    font-size: 35px;
-    padding-left: 80px; 
-    margin: auto;
-}
-
-/* 1° Div */
-.Kysbel_Romero{
-    width: 30%;
-    border: 1px solid #e0e0e0;
-    border-radius:  10px; 
-    text-align: center;
-    background-color: rgb(238, 238, 238);
-    margin-bottom: 30px;
-    cursor: pointer;
-}
-
-.Kysbel_Romero:hover{
-    background-color: antiquewhite;
-}
-
-.foto_Kysbel_Romero{
-    width: 100%;
-    height: 80%;
-    display: block;
-}
-
-.p_Kysbel_Romero{
-    font-size: 20px;
-}
-
-/* 2° Div */
-.Generador_memes{
-    width: 30%;
-    border: 1px solid #e0e0e0;
-    border-radius:  10px; 
-    text-align: center;
-    background-color: rgb(238, 238, 238); 
-    margin-bottom: 30px;  
-    cursor: pointer;
-}
-
-.Generador_memes:hover{
-    background-color: antiquewhite;
-}
-
-.foto_Generador_memes{
-    width: 100%;
-    height: 80%;
-    display: block;
-}
-
-.p_Generador_memes{
-    font-size: 20px;
-}
-
-/* 3° Div */
-.Match_3{
-    width: 30%;
-    border: 1px solid #e0e0e0;
-    border-radius:  10px; 
-    text-align: center;
-    background-color: rgb(238, 238, 238);  
-    margin-bottom: 30px;
-    cursor: pointer;
-}
-
-.Match_3:hover{
-    background-color: antiquewhite;
-}
-
-.foto_Match_3{
-    width: 100%;
-    height: 80%;
-    display: block;
-    padding-top: 5px;
-}
-
-.p_Match{
-    font-size: 20px;
-}
-
-/* 4° Div */
-.Controlador_de_Gastos{
-    width: 30%;
-    border: 1px solid #e0e0e0;
-    border-radius:  10px; 
-    text-align: center;
-    background-color: rgb(238, 238, 238);  
-    margin-bottom: 30px;
-    cursor: pointer;
-}
-
-.Controlador_de_Gastos:hover{
-    background-color:antiquewhite;
-}
-
-.foto_Controlador_de_Gastos{
-    width: 100%;
-    height: 80%;
-    display: block;
-    padding-top: 30px;
-}
-
-.p_Controlador_de_Gastos{
-    font-size: 20px;
-}
-
-/* 5° Div */
-.Administrador_de_Reuniones{
-    width: 30%;
-    border: 1px solid #e0e0e0;
-    border-radius:  10px; 
-    text-align: center;
-    background-color: rgb(238, 238, 238); 
-    margin-bottom: 30px; 
-    cursor: pointer;
-}
-
-.Administrador_de_Reuniones:hover{
-   background-color:  antiquewhite; 
-}
-
-.foto_Administrador_de_Reuniones{
-    width: 100%;
-    height: 80%;
-    display: block;
-}
-
-.p_Administrador_de_Reuniones{
-    font-size: 20px;
-}
-
-/* 6° Div */
-.Todo_app{
-    width: 30%;
-    border: 2px solid #e0e0e0;
-    border-radius:  10px; 
-    text-align: center;
-    margin-bottom: 30px; 
-    cursor: pointer;
-}
-
-.Todo_app:hover{
-    background-color: antiquewhite;
-  
-}
-
-.foto_Todo_app{
-    width: 100%;
-    height: 80%;
-    display: block;
-}
-
-.p_Todo_app{
-    font-size: 20px;
-}
-
-/* 7° Div */
-.Buscador_de_películas{
-    width: 30%;
-    border: 1px solid #e0e0e0;
-    border-radius:  10px;
-    text-align: center;
-    background-color: rgb(238, 238, 238);
-    margin-bottom: 30px;
-    cursor: pointer;
-}
-
-.Buscador_de_películas:hover{
-    background-color: antiquewhite;
-}
-
-
-.foto_Buscador_de_películas{
-    width: 100%;
-    height: 80%;
-    display: block;
-}
-
-.p_Buscador_de_películas{
-    font-size: 20px;
-}
-/* FIN DE LA SECCIÓN: MIS PROYECTOS */
-
-/* 5° SECCIÓN: FORMULARIOS */
+ /* 5° SECCIÓN: FORMULARIOS */
 
 #Contáctame{
     width: 100%;
@@ -533,7 +498,9 @@ a .boton-presentación:hover{
     margin-bottom: 70px;
     padding: 80px 60px;   
 }
+
 /* Mis Redes Sociales */
+
 .formulario_contáctame{ 
     display: inline-block;    
     width:50%;
@@ -557,6 +524,7 @@ a .boton-presentación:hover{
 }
 
 /* Formulario */
+
 .formulario_escríbeme{
     /* background-color: blueviolet; */
     width: 50%;
@@ -583,9 +551,9 @@ input{
     display: flex;
     flex-direction: row;
     font-size: 18px;
+    margin-bottom: 10px;
     margin-bottom: 18px;
 }
-
 
 .input_container_email{
     flex-grow: initial;
@@ -606,6 +574,7 @@ label{
 
 textarea{
     border: 2px;
+    border-radius: 10px;
     border-radius: 10px; 
     padding-top: 12px;
 }
@@ -635,6 +604,7 @@ footer{
 } 
 
 /* Contenedor principal */
+
 .Container_footer{
     display: flex;
     flex-direction: column;
@@ -646,6 +616,7 @@ footer{
 }
 
 /* Enlaces internos */
+
 .enlaces_internos_footer a{
     margin: 36px;
     padding-bottom: 55px;
@@ -657,17 +628,24 @@ footer{
 }
 
 /* Enlaces a mis redes */
+
 .enlaces_mis_redes_footer{
     margin: 40px;
 }
 
 .enlaces_mis_redes_footer a{
-    padding: 55px 35px;
+    padding: 55px 15px;
     margin: 15px;
 }
 
 .GitHub:hover{
+    border-radius:50% ;    
+    text-align: center;
    border-collapse: separate;
+}
+
+.Email:hover{
+    border-radius:65%;
 }
 
 .img_redes:hover{
@@ -675,6 +653,12 @@ footer{
     border-radius: 12px;
 }
 
+ /* .Email:hover{
+    border-radius: 55px;
+    background-color: rgb(255, 153, 0); 
+ } */
+
+
 .p_footer{
-    font-size: 20px;
+    font-size:20px;
 }
