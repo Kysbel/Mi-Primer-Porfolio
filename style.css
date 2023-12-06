@@ -54,6 +54,7 @@ ul li a:hover{
 
 .botón_menú:hover{
     background-color: rgb(255, 153, 0);
+    /* opacity: 0.8; */
 }
 /* FIN DEL MENÚ DE NAVEGACIÓN */
 
@@ -325,7 +326,7 @@ ul li a:hover{
      text-align: center;
  }
  .p_mis_proyectos{
-     font-size: 35px;
+     font-size: 25px;
      padding-left: 80px; 
      margin: auto;
  }
@@ -517,10 +518,14 @@ ul li a:hover{
 }
 
 .enlaces_formulario a{ 
-
     display: inline-block;
     font-size: 18px;
     padding: 5px;
+}
+
+.enlaces_formulario a:hover img{
+    background-color:  rgb(255, 153, 0);
+    border-radius: 8px;
 }
 
 /* Formulario */
