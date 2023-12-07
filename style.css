@@ -14,13 +14,13 @@ Body{
     font-family: 'Nunito Sans', sans-serif;
 }
 
-@media(max-width:992px){
-    Body{
+ /* @media(max-width:992px){
+   Body{
         width: 100%vw;
         height: 100%vh;
         display: block;
     }
-}
+} */
 
 /* MENÚ DE NAVEGACIÓN */
 
@@ -79,20 +79,11 @@ main{
     height: 60%;
 }
 
-@media(max-width:992px){
-    main{
-        height: auto;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-}
 
     #presentación{
         height: 12%; 
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap;
         background-color:antiquewhite;
         padding-bottom: 90px;
     }
@@ -107,11 +98,11 @@ main{
         font-size: 50px;
     }
 
-    @media(max-width:992px){
+    /* @media(max-width:992px){
         .datos{
             font-size: 25px;
         }
-    }
+    } */
 
     
     .presentación_descripción{
@@ -147,13 +138,13 @@ main{
         padding-right: 45px;
     }
 
-@media (max-width:992px) {
+/* @media (max-width:992px) {
     .presentación_foto{
         height: auto;
         flex-direction: column;
         margin: auto;
     }
-}
+} */
  /* FIN DE LA 1° SECCIÓN: PRESENTACIÓN *
    
  
@@ -182,18 +173,18 @@ main{
   padding-top: 30px;
 }
 
-@media(max-width:992px){
-    #Mis_Conocimientos{
-        height: auto;
+ @media(max-width:992px){
+   #Mis_Conocimientos{
+         height: auto;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* height: auto;
+        height: auto;
         display: flex;
         display: block;
-        flex-direction: column; */
+        flex-direction: column; 
     }
-}
+ }
 
 .Container_mis_conocimientos{
     width: 90vw;
@@ -209,7 +200,7 @@ main{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* margin: auto; */
+        margin: auto; 
     }
 }
 
@@ -275,7 +266,7 @@ main{
     border-radius:  10px;
     text-align: center;
     background-color: rgb(243, 242, 229);
-    /* background-color: rgb(221, 219, 191); */
+    background-color: rgb(221, 219, 191);
     margin: 10px;
 }
 
