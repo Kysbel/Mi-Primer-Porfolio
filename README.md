@@ -31,6 +31,5 @@ Si quieres estar en contacto conmigo, te invito a que me sigas a través de mi r
 ¡Me encantaría conectar contigo! Puedes encontrarme en:
 
 - [LinkedIn](https://www.linkedin.com/in/kysbel-romero-988507269/)
-- [Correo Electrónico](a class="Email" href="mailto:rkysbelss@gmail.com"></a>
-)<
+- [Correo] (rkysbelss@gmail.com)
 ¡GRACIAS por visitar mi portafolio ❤️!
