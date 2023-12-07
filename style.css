@@ -14,6 +14,14 @@ Body{
     font-family: 'Nunito Sans', sans-serif;
 }
 
+@media(max-width:992px){
+    Body{
+        width: 100%vw;
+        height: 100%vh;
+        display: block;
+    }
+}
+
 /* MENÚ DE NAVEGACIÓN */
 
 nav{
@@ -56,22 +64,40 @@ ul li a:hover{
     background-color: rgb(255, 153, 0);
     /* opacity: 0.8; */
 }
+
+@media(max-width:992px){
+    nav{
+        display: none;
+    }
+}
 /* FIN DEL MENÚ DE NAVEGACIÓN */
 
 /* INICIO DE SECCIONES (MAIN) */
     /* 1° SECCIÓN: PRESENTACIÓN */
-   main{
-        height: 60%;
+
+main{
+    height: 60%;
+}
+
+@media(max-width:992px){
+    main{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
-    
+}
+
     #presentación{
         height: 12%; 
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         background-color:antiquewhite;
         padding-bottom: 90px;
     }
-       
+
+
     .presentación_datos{
         width: 85%;
         padding: 80px 65px;
@@ -80,6 +106,13 @@ ul li a:hover{
     .datos{
         font-size: 50px;
     }
+
+    @media(max-width:992px){
+        .datos{
+            font-size: 25px;
+        }
+    }
+
     
     .presentación_descripción{
         font-size: 25px;
@@ -113,6 +146,14 @@ ul li a:hover{
         height: 90px;
         padding-right: 45px;
     }
+
+@media (max-width:992px) {
+    .presentación_foto{
+        height: auto;
+        flex-direction: column;
+        margin: auto;
+    }
+}
  /* FIN DE LA 1° SECCIÓN: PRESENTACIÓN *
    
  
@@ -141,12 +182,35 @@ ul li a:hover{
   padding-top: 30px;
 }
 
+@media(max-width:992px){
+    #Mis_Conocimientos{
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* height: auto;
+        display: flex;
+        display: block;
+        flex-direction: column; */
+    }
+}
+
 .Container_mis_conocimientos{
     width: 90vw;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     margin: 50px;
+}
+
+@media(max-width:992px){
+    .Container_mis_conocimientos{
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* margin: auto; */
+    }
 }
 
 .html{
