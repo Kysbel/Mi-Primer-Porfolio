@@ -32,4 +32,6 @@ Si quieres estar en contacto conmigo, te invito a que me sigas a través de mi r
 
 - [LinkedIn](https://www.linkedin.com/in/kysbel-romero-988507269/)
 - [Correo] (rkysbelss@gmail.com)
+
+- 
 ¡GRACIAS por visitar mi portafolio ❤️!
