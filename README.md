@@ -19,13 +19,13 @@ El objetivo de éste fue, poner en práctica todo lo aprendido, hasta ahora, sob
 ## Acerca de mí
 Mi nombre es Kysbel Romero. Soy venezolana y estudiante de Desarrollo Frontend en ADA ITW en Argentina.
 Desde siempre he sido curiosa y precisamente esta cualidad fue lo que me adentró en el mundo del Desarrollo Web.
-Constantemente estoy buscando maneras de crecer y aprender. Por eso, te invito a que veas mi evolución en  este camino del Desarrollo Web, a través de este proyecto y de los que, sin duda alguna, vendran..
+Constantemente estoy buscando maneras de crecer y aprender. Por eso, te invito a que veas mi evolución en  este camino del Desarrollo Web, a través de este proyecto y de los que, sin duda alguna, vendran...
 
 ## Habilidades
 
 - Html
 - CSS
-- Git
+- GIT
 
 ## Cómo Contactarme
 
@@ -34,4 +34,6 @@ Si quieres estar en contacto conmigo, te invito a que me sigas a través de mi r
 
 - [LinkedIn](https://www.linkedin.com/in/kysbel-romero-988507269/)
 - [Correo] (rkysbelss@gmail.com)
+
+
 ¡GRACIAS por visitar mi portafolio ❤️!
