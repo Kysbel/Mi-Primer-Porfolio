@@ -13,6 +13,8 @@ El objetivo de éste fue, poner en práctica todo lo aprendido, hasta ahora, sob
  - Entre otros...
 
 
+![imagen portafolio](./Imágenes/Porfolio.png)
+
 
 ## Acerca de mí
 Mi nombre es Kysbel Romero. Soy venezolana y estudiante de Desarrollo Frontend en ADA ITW en Argentina.
@@ -32,4 +34,6 @@ Si quieres estar en contacto conmigo, te invito a que me sigas a través de mi r
 
 - [LinkedIn](https://www.linkedin.com/in/kysbel-romero-988507269/)
 - [Correo] (rkysbelss@gmail.com)
+
+
 ¡GRACIAS por visitar mi portafolio ❤️!
