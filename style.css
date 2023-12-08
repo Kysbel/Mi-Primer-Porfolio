@@ -266,7 +266,7 @@ main{
     border-radius:  10px;
     text-align: center;
     background-color: rgb(243, 242, 229);
-    background-color: rgb(221, 219, 191);
+    /* background-color: rgb(221, 219, 191); */
     margin: 10px;
 }
 
@@ -721,4 +721,10 @@ footer{
 
 .p_footer{
     font-size:20px;
+}
+
+@media(max-width:992px) {
+   .Container_footer{
+    flex-direction: row;
+   } 
 }
