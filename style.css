@@ -10,16 +10,12 @@
 
 
 Body{
-    /* height: 100%vh; 
-    width: 100%wh; */
-    /* background-color: black; */
+    height: 100%;
     font-family: 'Nunito Sans', sans-serif;
 }
 
   @media(max-width:992px){
    Body{
-        /* width: 100%vw;
-        height: 100%vh; */
         display: block;
     }
 } 
@@ -77,19 +73,6 @@ ul li a:hover{
 /* INICIO DE SECCIONES (MAIN) */
     /* 1° SECCIÓN: PRESENTACIÓN */
 
-
-/* @media(max-width:992px){
-    main{
-        height: 60%;
-        width: 100%;
-    }
-}
-
-main{
-    height: 60%;
-} */
-
-
 @media(max-width:992px){
     #presentación{
         margin: auto;
@@ -98,15 +81,6 @@ main{
         flex-direction: column;
         text-align: center;
     }
-    /* #presentación{
-        height: 12%; 
-        width: 100%;
-        display: flex;
-        flex-direction: column; */
-       /* background-color:antiquewhite; */
-        /* background-color: black;
-        padding-bottom: 90px;
-    } */
  }
 
 #presentación{
@@ -117,7 +91,7 @@ main{
     }
 
     .presentación_datos{
-        /* width: 85%; */
+       
         padding: 80px 65px;
     }
     
@@ -125,13 +99,6 @@ main{
         font-size: 50px;
     }
 
-    /* @media(max-width:992px){
-        .datos{
-            font-size: 25px;
-        }
-    } */
-
-    
     .presentación_descripción{
         font-size: 25px;
         margin: 10px;
@@ -169,6 +136,11 @@ main{
     .presentación_foto{
         flex-direction: column;
         margin: auto;
+        height: 350px;
+    }
+
+    img{
+        background-size: 200 200px;
     }
 }
  /* FIN DE LA 1° SECCIÓN: PRESENTACIÓN *
@@ -182,7 +154,6 @@ main{
         justify-content: center;
         align-items: center;
         display: block; 
-        /* padding-inline: ; */
     }
  }
 
@@ -211,7 +182,6 @@ main{
 
 
 .Container_mis_conocimientos{
-    width: 90vw;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -220,11 +190,11 @@ main{
 
 @media(max-width:992px){
     .Container_mis_conocimientos{
-        height: auto;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: auto; 
+        text-align: center;
     }
 }
 
@@ -290,7 +260,6 @@ main{
     border-radius:  10px;
     text-align: center;
     background-color: rgb(243, 242, 229);
-    /* background-color: rgb(221, 219, 191); */
     margin: 10px;
 }
 
@@ -310,7 +279,6 @@ main{
     border-radius: 10px;
     text-align: center;
     background-color: rgb(243, 242, 229);
-    /* background-color: rgb(221, 219, 191); */
     margin: 10px;
 }
 
@@ -329,7 +297,6 @@ main{
     border: 3px;
     border-radius: 10px;
     text-align: center;
-    /* background-color: rgb(221, 219, 191); */
     background-color: rgb(243, 242, 229);
     margin: 10px;
 }
@@ -350,12 +317,9 @@ main{
 
 /* 3° SECCIÓN: CITA PERSONAL */
 .cita{
-    width: 100%;
-    height: 12%;
     background-color: antiquewhite;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
     text-align: center;
     padding: 50px;
@@ -380,16 +344,36 @@ main{
 }
 
 /* 4° SECCIÓN */
+
+@media(max-width:992px){
+    #mis_proyectos{
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    display: block;
+    text-align:center;
+   }
+}
+
 #mis_proyectos {
-    width: 100%;
-    height: 12%;
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(238, 238, 238);
     text-align: center;
     padding-top: 90px;
  } 
+ 
  /* Contenedor de la section "mis_proyectos" */
+
+ @media(max-width:992px){
+    .Container_mis_proyectos{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+ }
+
  .Container_mis_proyectos{
      width: 90%;
      display: flex;
@@ -411,12 +395,12 @@ main{
  }
  /* 1° Div */
  .Kysbel_Romero{
-     width: 30%;
+    width: 30%;
      border: 1px solid #e0e0e0;
      border-radius:  10px; 
      text-align: center;
-     background-color: rgb(238, 238, 238);
-     margin-bottom: 30px;
+     background-color: rgb(238, 238, 238); 
+     margin-bottom: 30px;  
      cursor: pointer;
  }
  .Kysbel_Romero:hover{
@@ -426,7 +410,7 @@ main{
      width: 100%;
      height: 80%;
      display: block;
- }
+ } 
  .p_Kysbel_Romero{
      font-size: 20px;
  }
@@ -562,28 +546,47 @@ main{
 
  /* 5° SECCIÓN: FORMULARIOS */
 
-#Contáctame{
-    width: 100%;
-    height: 12%;
+@media(max-width:992px){
+    .Container_Contáctame{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .Container_Contáctame{
-    width: 80%;
     display: flex;
     text-align: left;
+    justify-content: space-between;
     background-color: antiquewhite;
     border-radius: 8px;    
     margin: auto;
     margin-top: 70px;
     margin-bottom: 70px;
-    padding: 80px 60px;   
+    padding: 80px 60px; 
 }
 
 /* Mis Redes Sociales */
 
+@media(max-width:992px){
+    .formulario_contáctame{ 
+        width: 50%;
+        display: inline;  
+        justify-content: flex-start; 
+    }
+}
+.Container_enlaces{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 .formulario_contáctame{ 
-    display: inline-block;    
-    width:50%;
+    width: 50%;
+    flex-direction: column; 
+    display: block; 
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    padding: 5px 15px;
 }
 
 .h2_formulario{
@@ -596,10 +599,18 @@ main{
     padding-bottom: 10px;
 }
 
+
+@media(max-width:992px){
+    .enlaces_formulario{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
 .enlaces_formulario a{ 
-    display: inline-block;
     font-size: 18px;
-    padding: 5px;
+    padding: 15px; 
 }
 
 .enlaces_formulario a:hover img{
@@ -609,10 +620,18 @@ main{
 
 /* Formulario */
 
+@media(max-width:992px){
+    .formulario_escríbeme{ 
+        width: 50%;
+        display: inline-block;
+        padding-top: 20px;
+    }
+}
+
 .formulario_escríbeme{
-    /* background-color: blueviolet; */
-    width: 50%;
-    padding-left: 25px;
+    max-width: 50%;
+    display: inline-block;  
+    justify-content: flex-start; 
 }
 
 .h2_formulario_escríbeme{
@@ -624,6 +643,7 @@ input{
     border: 5px;
     border-radius: 15px;
     padding: 10px;
+    margin: 8px;
 }
 
 .input_container{
@@ -687,15 +707,15 @@ footer{
     background-color: rgb(238, 238, 238);
 } 
 
-/* @media(max-width:992px){
-    footer{
-        height: 20%;
-        width: 100%;
-        background-color: rgb(238, 238, 238);
-    }
-} */
 
 /* Contenedor principal */
+
+@media(max-width:992px) {
+   .Container_footer{
+    flex-direction: row;
+    display: inline-block;
+   } 
+}
 
 .Container_footer{
     display: flex;
@@ -708,6 +728,18 @@ footer{
 }
 
 /* Enlaces internos */
+
+@media(max-width:992px){
+    .enlaces_internos_footer{
+        display: none;
+        margin-top: 0;
+    }
+
+    .enlaces_internos_footer a{
+        display: inline-block;
+    }
+
+}
 
 .enlaces_internos_footer a{
     margin: 36px;
@@ -722,12 +754,16 @@ footer{
 /* Enlaces a mis redes */
 
 .enlaces_mis_redes_footer{
-    margin: 40px;
+    display: flex;
+    margin: 40px; 
+    align-items: center;
+    justify-content: center;
 }
 
 .enlaces_mis_redes_footer a{
-    padding: 55px 15px;
+    /* padding: 55px 15px; */
     margin: 15px;
+    display: flex;
 }
 
 .GitHub:hover{
@@ -745,18 +781,7 @@ footer{
     border-radius: 12px;
 }
 
- /* .Email:hover{
-    border-radius: 55px;
-    background-color: rgb(255, 153, 0); 
- } */
-
-
 .p_footer{
     font-size:20px;
 }
 
-@media(max-width:992px) {
-   .Container_footer{
-    flex-direction: row;
-   } 
-}
