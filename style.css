@@ -40,9 +40,7 @@ Body{
 
 
 /* AUDIO */
-audio{
-    display: none;
-} 
+
 
 /* MENÚ DE NAVEGACIÓN */
 
@@ -221,10 +219,9 @@ ul li a:hover{
         padding-top: 47px;
     }
 
-    img{
-        height: 400px;
+    .img_presentación{
+        height: 500px;
         width: auto;
-        background-color: aqua;
     }    
 }
 
@@ -722,7 +719,7 @@ ul li a:hover{
     .Container_Contáctame{
         display: flex;
         flex-direction: column;
-        background-image: url(./Imágenes/pexels-karolina-grabowsk.jpg);
+        background-image: url(./Imágenes/pexels-sl-wong-1023953.jpg);
         background-position: left;
         background-size: cover;
     }
@@ -752,11 +749,6 @@ ul li a:hover{
         justify-content: flex-start; 
     }
 }
-.Container_enlaces{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
 
 .formulario_contáctame{ 
     width: 50%;
@@ -776,24 +768,34 @@ ul li a:hover{
     font-size: 18px; 
     padding-bottom: 10px;
 }
-
+.Container_enlaces{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
 @media(max-width:992px){
-    .enlaces_formulario{
+    .enlaces_a_mis_redes_formulario{
         display:flex;
         flex-wrap: wrap;
         flex-direction: column;
     }
-    .enlaces_formulario a{ 
+    .enlaces_a_mis_redes_formulario a{ 
         font-size: 18px;
         padding: 15px; 
     }
-}
+} 
 
-.enlaces_formulario a{ 
+.enlaces_a_mis_redes_formulario{ 
     font-size: 18px;
     padding: 15px; 
 }
+
+/* .enlace_form_redes{
+    font-size: 18px;
+    padding: 15px; 
+} */
+
 
 .enlaces_formulario a:hover img{
     background-color:  rgb(255, 153, 0);
@@ -881,6 +883,7 @@ input[type="submit"]{
 input[type="submit"]:hover{
     background-color:  rgb(255, 153, 0);
 }
+
 
 /* FOOTER */
 
@@ -981,3 +984,9 @@ footer{
     font-size:20px;
 }
 
+/* AUDIO */
+audio{
+    width: 1px;
+    background-color: transparent;
+    color: transparent;
+}
