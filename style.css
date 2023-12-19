@@ -10,9 +10,9 @@
 
 
 Body{
-    width: 100%;
-    height: 100%;
-    margin: auto;
+    /* width: 100vw; */
+    height: 100vh;
+    /* margin: auto; */
     font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -20,6 +20,11 @@ Body{
    Body{
         display: block;
     }
+} 
+
+/* AUDIO */
+audio{
+    display: none;
 } 
 
 /* MENÚ DE NAVEGACIÓN */
@@ -62,6 +67,13 @@ ul li a:hover{
     padding: 10px;
 }
 
+
+@media(max-width:992px){
+    nav{
+        display: none;
+    }
+}
+
 .botón_menú:hover{
     /* background-color: rgb(255, 153, 0); */
     /* background-color: rgb(172, 47, 72); */
@@ -69,11 +81,6 @@ ul li a:hover{
     opacity: 0.8; 
 }
 
-@media(max-width:992px){
-    nav{
-        display: none;
-    }
-}
 /* FIN DEL MENÚ DE NAVEGACIÓN */
 
 /* INICIO DE SECCIONES (MAIN) */
@@ -82,7 +89,7 @@ ul li a:hover{
 @media(max-width:992px){
     #presentación{
         max-width: 100%;
-        margin: auto;
+         /*margin: auto; */
         padding-bottom: 2em;
         display: flex;
         flex-direction: column;
@@ -102,10 +109,20 @@ ul li a:hover{
     }
 
     .presentación_datos{
-       
-        padding: 80px 65px;
+       padding: 80px 65px;
     }
-    
+
+
+@media(max-width:992px){
+    .datos{
+        font-size: 35px;
+    }
+
+    .presentación_descripción{
+        font-size: 20px;
+    }
+}  
+
     .datos{
         font-size: 50px;
     }
@@ -114,7 +131,14 @@ ul li a:hover{
         font-size: 25px;
         margin: 10px;
     }
+
     
+@media(max-width:992px){
+    h1{
+        font-size: 50px;
+    }
+}
+
     h1{
         font-size: 70px;
     }
@@ -147,12 +171,13 @@ ul li a:hover{
 @media (max-width:992px) {
     .presentación_foto{
         flex-direction: column;
-        margin: auto;
-        height: 350px;
+        /* margin: auto; */
+        height: 575px;
+        padding-top: 47px;
     }
 
     img{
-        background-size: 200 200px;
+        background-size: 30px;
     }
 }
  /* FIN DE LA 1° SECCIÓN: PRESENTACIÓN *
@@ -338,8 +363,13 @@ ul li a:hover{
 /* 3° SECCIÓN: CITA PERSONAL */
 
 @media (max-width:992px){
+    .cita{
+        background-image:url(./Imágenespexels-karolina-grabowska-4210804.jpg);
+        opacity: 85%;
+        background-position: bottom;background-size: cover;
+    }
     .párrafo_cita{
-        font-size: 10px;
+        font-size: 8px;
     }
     .autor_cita{
         font-size: 7px;
@@ -387,6 +417,9 @@ ul li a:hover{
     flex-direction: column;
     display: block;
     text-align:center;
+    background-image:url(./Imágenes/pexels-pixabay-66284.jpg);
+    background-position: top;
+    background-size: cover;
    }
 }
 
@@ -447,12 +480,15 @@ ul li a:hover{
  }
  .foto_Kysbel_Romero{
      width: 100%;
-     height: 80%;
+     height: 80%; 
+     object-fit: cover;
      display: block;
  } 
+
  .p_Kysbel_Romero{
      font-size: 20px;
  }
+
  /* 2° Div */
  .Generador_memes{
      width: 30%;
@@ -469,11 +505,14 @@ ul li a:hover{
  .foto_Generador_memes{
      width: 100%;
      height: 80%;
+     object-fit: cover;
      display: block;
  }
+
  .p_Generador_memes{
      font-size: 20px;
  }
+
  /* 3° Div */
  .Match_3{
      width: 30%;
@@ -490,13 +529,16 @@ ul li a:hover{
  
  .foto_Match_3{
      width: 100%;
-     height: 80%;
+     height: 80%; 
+     object-fit: cover;
      display: block;
      padding-top: 5px;
  }
+
  .p_Match{
      font-size: 20px;
  }
+
  /* 4° Div */
  .Controlador_de_Gastos{
      width: 30%;
@@ -510,16 +552,21 @@ ul li a:hover{
  .Controlador_de_Gastos:hover{
      background-color: white;
  }
+
  .foto_Controlador_de_Gastos{
      width: 100%;
      height: 80%;
+     object-fit: cover;
      display: block;
-     padding-top: 30px;
+     padding-top: 30px; 
  }
+
  .p_Controlador_de_Gastos{
      font-size: 20px;
  }
+
  /* 5° Div */
+
  .Administrador_de_Reuniones{
      width: 30%;
      border: 1px solid #e0e0e0;
@@ -534,7 +581,8 @@ ul li a:hover{
  }
  .foto_Administrador_de_Reuniones{
      width: 100%;
-     height: 80%;
+     height: 80%; 
+     object-fit: cover;
      display: block;
  }
  .p_Administrador_de_Reuniones{
@@ -556,6 +604,7 @@ ul li a:hover{
  .foto_Todo_app{
      width: 100%;
      height: 80%;
+     object-fit: cover;
      display: block;
  }
  .p_Todo_app{
@@ -576,8 +625,10 @@ ul li a:hover{
  }
  .foto_Buscador_de_películas{
      width: 100%;
-     height: 80%;
+     height: 80%; 
+     object-fit: cover;
      display: block;
+    
  }
  .p_Buscador_de_películas{
      font-size: 20px;
@@ -590,6 +641,9 @@ ul li a:hover{
     .Container_Contáctame{
         display: flex;
         flex-direction: column;
+        background-image: url(./Imágenes/pexels-karolina-grabowsk.jpg);
+        background-position: left;
+        background-size: cover;
     }
 }
 
@@ -744,9 +798,19 @@ input[type="submit"]:hover{
 }
 
 /* FOOTER */
+
+@media(max-width:992px) {
+    footer{
+        width: 100%;
+        background-image: url(./Imágenes/rojo_alreves.jpg);
+        background-position: bottom;
+        background-size: cover;
+    }
+}
+
 footer{
-    height: 20%;
-    width: 100%;
+    /* height: 20%;
+    width: 100%; */
     background-image: url(./Imágenes/rojo_alreves.jpg);
     background-position: bottom;
     background-size: cover;
