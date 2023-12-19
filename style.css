@@ -9,18 +9,35 @@
  }
 
 
-Body{
-    /* width: 100vw; */
-    height: 100vh;
-    /* margin: auto; */
-    font-family: 'Nunito Sans', sans-serif;
+/* MEDIA QUERYS DEL BODY */
+
+/* 992px */
+@media(max-width:992px){
+   Body{
+    width: 100%; 
+    height: 100%;
+    display: block;
+  }
+} 
+
+/* 600px */
+@media(max-width:600px){
+    
+    Body{
+        width: 100%; 
+        height: 100%;
+        display: block;
+    }  
 }
 
-  @media(max-width:992px){
-   Body{
-        display: block;
-    }
-} 
+Body{
+    width: 100%; 
+    height: 100%;
+    /* margin: auto; */
+    font-family:'Nunito Sans', sans-serif;
+}
+/* ______________________________________ */
+
 
 /* AUDIO */
 audio{
@@ -75,13 +92,12 @@ ul li a:hover{
 }
 
 .botón_menú:hover{
-    /* background-color: rgb(255, 153, 0); */
-    /* background-color: rgb(172, 47, 72); */
     background-color: rgb(129, 179, 118); 
     opacity: 0.8; 
 }
-
 /* FIN DEL MENÚ DE NAVEGACIÓN */
+
+
 
 /* INICIO DE SECCIONES (MAIN) */
     /* 1° SECCIÓN: PRESENTACIÓN */
@@ -89,13 +105,27 @@ ul li a:hover{
 @media(max-width:992px){
     #presentación{
         max-width: 100%;
-         /*margin: auto; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center; 
+        /* padding-bottom: 2em; */
+    }
+ }
+
+ @media(max-width:600px){
+    #presentación{
+        max-width: 100%;
         padding-bottom: 2em;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
         text-align: center;
     }
  }
+
 
 #presentación{
         display: flex;
@@ -105,10 +135,12 @@ ul li a:hover{
         background-image: url(./Imágenes/pexels-sl-wong-1023953.jpg);
         background-position: top;
         background-size: cover;
-        padding-bottom: 90px;
+        padding-top: 80px; 
+        padding-bottom: 100px
     }
 
     .presentación_datos{
+        width: 50%;
        padding: 80px 65px;
     }
 
@@ -123,6 +155,17 @@ ul li a:hover{
     }
 }  
 
+@media(max-width:600px){
+    .datos{
+        font-size: 25px;
+    }
+
+    .presentación_descripción{
+        font-size: 15px;
+    }
+}
+
+
     .datos{
         font-size: 50px;
     }
@@ -131,14 +174,23 @@ ul li a:hover{
         font-size: 25px;
         margin: 10px;
     }
+/* ___________________________________ */
 
-    
+/* media querys de h1 */
 @media(max-width:992px){
     h1{
         font-size: 50px;
     }
 }
 
+@media(max-width:600px){
+    h1{
+        font-size: 30px;
+    }
+}
+
+
+/* ____________________________________ */
     h1{
         font-size: 70px;
     }
@@ -158,34 +210,58 @@ ul li a:hover{
     }
     
     a .boton-presentación:hover{
-        /* background-color: rgb(255, 153, 0); */
         background-color: rgb(129, 179, 118); 
         opacity: 0.8; 
     }
-    
-    .presentación_foto{
-        height: 90px;
-        padding-right: 45px;
-    }
 
-@media (max-width:992px) {
+ @media (max-width:992px) {
     .presentación_foto{
         flex-direction: column;
-        /* margin: auto; */
         height: 575px;
         padding-top: 47px;
     }
 
     img{
-        background-size: 30px;
-    }
+        height: 400px;
+        width: auto;
+        background-color: aqua;
+    }    
 }
+
+@media(max-width:600px){
+    .presentación_foto{
+        flex-direction: column; 
+        /* margin: auto; */
+        height: 400px;
+        padding-top: 37px;
+    }
+
+    img{
+       height: 200px;
+    }    
+} 
+
  /* FIN DE LA 1° SECCIÓN: PRESENTACIÓN *
    
  
  /* 2° SECCIÓN: CONOCIMIENTOS */
- @media(max-width:992px){
+
+@media(max-width:992px){
+
    #Mis_Conocimientos{ 
+        max-width: 100%;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        display:block; 
+        background-color:blueviolet;
+    }
+ }
+
+ @media(max-width:600px){
+    #Mis_Conocimientos{ 
+        max-width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -193,13 +269,14 @@ ul li a:hover{
         display: block; 
     }
  }
-
-#Mis_Conocimientos{
+ 
+ #Mis_Conocimientos{
+    max-width:100%;
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
     display: block;
-    padding-block: 60px 45px;
+    padding: 60px 45px;
     margin-top: 35px;
     /* background-color: rgb(238, 238, 238); */
     /* background-color: white; */
@@ -208,6 +285,7 @@ ul li a:hover{
     background-size: cover;
     text-align: center; 
 }
+ 
 
 .h2_mis_conocimientos{
     font-size: 55px;
@@ -220,7 +298,16 @@ ul li a:hover{
   padding-top: 30px;
 }
 
-
+@media(max-width:992px){
+    .Container_mis_conocimientos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto; 
+        text-align: center;
+    }
+}
 
 .Container_mis_conocimientos{
     display: flex;
@@ -229,15 +316,6 @@ ul li a:hover{
     margin: 50px;
 }
 
-@media(max-width:992px){
-    .Container_mis_conocimientos{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: auto; 
-        text-align: center;
-    }
-}
 
 .html{
     width: 30%;
@@ -395,7 +473,7 @@ ul li a:hover{
 }
 
 .párrafo_cita{
-    font-size: 55px; 
+    font-size: 45px; 
     padding-top: 50px;
 }
 
@@ -426,11 +504,14 @@ ul li a:hover{
 #mis_proyectos {
     display: flex;
     flex-wrap: wrap;
-    /* background-color: rgb(238, 238, 238); */background-image:url(./Imágenes/pexels-pixabay-66284.jpg);
+    align-items: center;
+    justify-content: center;
+    background-image:url(./Imágenes/pexels-pixabay-66284.jpg);
     background-position: top;
     background-size: cover;
-    margin-top: 35px;
     text-align: center;
+    margin-top: 35px; 
+    padding: 30px 45px;
     padding-top: 90px;
  } 
  
@@ -702,6 +783,10 @@ ul li a:hover{
         display:flex;
         flex-wrap: wrap;
         flex-direction: column;
+    }
+    .enlaces_formulario a{ 
+        font-size: 18px;
+        padding: 15px; 
     }
 }
 
