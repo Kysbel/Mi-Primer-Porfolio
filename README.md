@@ -12,9 +12,14 @@ El objetivo de éste fue, poner en práctica todo lo aprendido, hasta ahora, sob
  - Media queries/ Breakpoints
  - Entre otros...
 
-
+Primer diseño 👇🏽
 ![imagen portafolio](./Imágenes/Porfolio.png)
 
+Parte de mi código (después de muchas modificaciones) 👇🏽
+![imagen del código](./Imágenes/README/style.css%20-%20PORFOLIO%20-%20Visual%20Studio%20Code%2020_12_2023%2002_41_17.png)
+
+Diseño final 👇🏽
+![imagen](./Imágenes/README/Sin%20título%20-%20Google%20Chrome%2020_12_2023%2002_43_13.png)
 
 ## Acerca de mí
 Mi nombre es Kysbel Romero. Soy venezolana y estudiante de Desarrollo Frontend en ADA ITW en Argentina.
