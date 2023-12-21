@@ -8,34 +8,23 @@
     text-decoration: none;
  }
 
+ body{
+    width: 100%;
+    height: 100%;
+    font-family:'Nunito Sans', sans-serif
+ }
 
 /* MEDIA QUERYS DEL BODY */
 
-/* 992px */
-@media(max-width:992px){
-   Body{
-    width: 100%; 
-    height: 100%;
-    display: block;
-  }
-} 
-
-/* 600px */
-@media(max-width:600px){
-    
-    Body{
-        width: 100%; 
-        height: 100%;
-        display: block;
-    }  
+/* 767px */
+@media(max-width:767px) {
 }
 
-Body{
-    width: 100%; 
-    height: 100%;
-    /* margin: auto; */
-    font-family:'Nunito Sans', sans-serif;
-}
+/* 768-990 px */
+@media (max-width:768px) and (max-width:990px){
+}  
+
+@media(min-width: 991px){}
 /* ______________________________________ */
 
 
@@ -83,7 +72,7 @@ ul li a:hover{
 }
 
 
-@media(max-width:992px){
+@media(max-width:900px){
     nav{
         display: none;
     }
@@ -95,88 +84,88 @@ ul li a:hover{
 }
 /* FIN DEL MENÚ DE NAVEGACIÓN */
 
-
+/* @media(max-width:767px)
+@media (max-width:768px) and (max-width:990px)
+@media(min-width: 991px) */
 
 /* INICIO DE SECCIONES (MAIN) */
     /* 1° SECCIÓN: PRESENTACIÓN */
 
-@media(max-width:992px){
+@media(max-width:1100px){
     #presentación{
-        max-width: 100%;
+        max-width: 100%; 
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        flex-wrap: wrap;
         text-align: center; 
-        /* padding-bottom: 2em; */
+        background-image: url(./Imágenes/pexels-sl-wong-1023953.jpg);
+        background-position: right;
+        background-size: cover;
+        padding-top: 80px; 
     }
- }
 
- @media(max-width:600px){
-    #presentación{
-        max-width: 100%;
-        padding-bottom: 2em;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    h2 .datos{
+        font-size: 30px;
         text-align: center;
     }
- }
+
+    h1{
+        font-size: 35px;
+        text-align: center;
+    } 
+
+    p .presentación_descripción{
+        font-size:20px; 
+    }
+
+    .presentación_foto{
+        flex-direction: column; 
+        width: 400px;
+        height: 400px;
+        padding-top: 37px;
+        /* background-color: blueviolet; */
+        
+    }
+    
+    img{
+        height: 320px;
+        background-color: black;
+    }      
+}
+ 
+/* fin del contenedor 1:presentación con media querys */
+/* ________________________________________ */
 
 
-#presentación{
+/* contenedor principal, original */
+
+ #presentación{
         display: flex;
         justify-content: space-between;
-        /* background-color:antiquewhite; */
-        /* background-color: whitesmoke; */
         background-image: url(./Imágenes/pexels-sl-wong-1023953.jpg);
         background-position: top;
         background-size: cover;
-        padding-top: 80px; 
-        padding-bottom: 100px
-    }
+        padding-top: 55px; 
+        padding-bottom: 90px;
+    } 
+    
+    /* Div 1° de contenedor principal de #presentación  */
 
     .presentación_datos{
         width: 50%;
        padding: 80px 65px;
     }
 
-
-@media(max-width:992px){
-    /* .datos{
-        font-size: 35px;
-    } */
-
-}  
-
-@media(max-width:600px){
-    .datos{
-        font-size: 25px;
-    }
-
-    .presentación_descripción{
-        font-size: 15px;
-    }
-} .presentación_descripción{
-        font-size: 25px;
-        margin: 10px;
-    }
-/* ___________________________________ */
-
-/* ____________________________________ */
-
 h2{
-    font-size: 35px;
-    color: black;
+    font-size: 50px;
 }
 
 h1{
-    font-size: 70px;
+    font-size: 60px;
  }
 
 .presentación_descripción{
-    font-size:25px; ;
+    font-size:30px; 
 }
     
  .boton-presentación{
@@ -187,11 +176,12 @@ h1{
         width: 180px;
         cursor: pointer;
         background-color: rgb(158, 64, 73);
-        padding-top: 10px;
+        padding-top: 100px;
 }
     
 a .boton-presentación{
-         padding: 10px;
+    padding: 10px;
+    margin:10px
  }
     
 a .boton-presentación:hover{
@@ -199,90 +189,79 @@ a .boton-presentación:hover{
         opacity: 0.8; 
 }
 
- @media (max-width:992px) {
-    .presentación_foto{
-        flex-direction: column;
-        height: 575px;
-        padding-top: 47px;
-    }
-
-    .img_presentación{
-        height: 500px;
-        width: auto;
-    }    
-}
-
-@media(max-width:600px){
-    .presentación_foto{
-        flex-direction: column; 
-        /* margin: auto; */
-        height: 400px;
-        padding-top: 37px;
-    }
-
-    img{
-       height: 200px;
-    }    
-} 
-
  /* FIN DE LA 1° SECCIÓN: PRESENTACIÓN *
    
  
  /* 2° SECCIÓN: CONOCIMIENTOS */
 
-@media(max-width:992px){
-
-   #Mis_Conocimientos{ 
-        max-width: 100%;
-        display:flex;
-        flex-direction:column;
-        justify-content:center;
-        align-items:center;
-        display:block; 
-        
-    }
- }
-
- @media(max-width:600px){
+@media(max-width:1100px){
     #Mis_Conocimientos{ 
-        max-width: 100%;
+        max-width: 100%; 
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        display: block; 
+        flex-wrap: wrap;
+        text-align: center; 
+        background-image: url(./Imágenes/pexels-sl-wong-1023953.jpg);
+        background-position: right;
+        background-size: cover;
+        padding-top: 80px; 
     }
  }
- 
+
  #Mis_Conocimientos{
     max-width:100%;
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
     display: block;
-    padding: 60px 45px;
+    /* padding: 60px 45px; */
     margin-top: 35px;
-    /* background-color: rgb(238, 238, 238); */
-    /* background-color: white; */
     background-image: url(./Imágenes/alreves.jpg);
     background-position: bottom;
     background-size: cover;
     text-align: center; 
 }
  
+@media(max-width:1100px){
+    .h2_p_mis_conocimientos{
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        height: 450px;
+        padding-top: 37px;
+        background-color: tomato;
+        padding: 5px 5px;
+    }
+}
 
+
+/* @media(max-width:1100px){
+    .h2_mis_conocimientos{
+        font-size: 555px;
+        color: turquoise;
+    }
+} */
+    
 .h2_mis_conocimientos{
     font-size: 55px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
 }
+
+ 
+/* @media(max-width:1100px){
+    .texto_mis_conocimientos{
+        font-size: 20px;
+        padding-top: 20px;
+    }
+} */
 
 .texto_mis_conocimientos{
   font-size: 25px;
   padding-top: 30px;
 }
 
-@media(max-width:992px){
+@media(max-width:1100px){
     .Container_mis_conocimientos{
         display: flex;
         flex-direction: column;
