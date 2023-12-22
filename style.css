@@ -138,7 +138,7 @@ a .boton-presentación{
     /* background-color: blueviolet; */
     }
        
-img{
+.img_presentación{
         height: 400px;
     }      
 
@@ -740,6 +740,10 @@ footer{
 
 .Email:hover{
     border-radius:65%;
+}
+
+.img_redes{
+    font-size: 35px;
 }
 
 .img_redes:hover{
