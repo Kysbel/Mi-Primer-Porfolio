@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+/* font-family: 'Nunito Sans', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+ }
+
+ body{
+    width: 100%;
+    height: 100%;
+    font-family:'Nunito Sans', sans-serif;
+    background-color: blue;
+ }
+
+ @media(max-width:900px){
+    nav{
+        display: none;
+    }
+}
+
+#presentación{
+    max-width: 100%; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center; 
+    background-image: url(./Imágenes/pexels-sl-wong-1023953.jpg);
+    background-position: right;
+    background-size: cover;
+    padding-top: 50px; 
+}
+
+/* Div 1° de contenedor principal de #presentación  */
+
+.presentación_datos{
+        margin: 0px 100px;
+        padding-bottom: 15px;
+    }
+
+/* h2 */
+    h2 .datos{
+        font-size: 20px;
+        text-align: center;
+}
+
+/* h1 */
+    h1{
+    font-size: 35px;
+    text-align: center;
+   } 
+
+/* texto presentación: descripción */
+    .presentación_descripción{
+        font-size:20px; 
+    }
+
+    /* Botón */
+.boton-presentación{
+    border: 3px;
+    border-radius: 100px;
+    border-bottom: transparent;
+    font-size: 18px;
+    width: 180px;
+    cursor: pointer;
+    background-color: rgb(158, 64, 73);
+    padding-top: 100px;
+}
+    
+a .boton-presentación{
+    padding: 10px;
+    margin:10px
+ }
+
+ a .boton-presentación:hover{
+    background-color: rgb(129, 179, 118); 
+    opacity: 0.8; 
+}
+
+/* Div de la foto */
+.presentación_foto{
+    flex-direction: column; 
+    width: 460px;
+    height: 460px;
+    padding-top: 10px;
+    margin: 0px 20px;
+}
+
+ img{
+    width: 350px;
+    height:350px;   
+    object-fit: cover;
+}      
+ /* FIN DE LA 1° SECCIÓN: PRESENTACIÓN */
+
+/* 2° SECCIÓN: CONOCIMIENTOS */
+    #Mis_Conocimientos{ 
+        max-width: 100%; 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center; 
+        background-image: url(./Imágenes/pexels-sl-wong-1023953.jpg);
+        background-position: right;
+        background-size: cover;
+        padding-top: 80px; 
+        margin: 40px 30px;
+    }
+ /* Contenedor de título y párrafo */
+ .h2_p_mis_conocimientos{
+    margin: 27px 70px;
+    margin-right: 212px;
+    padding-bottom: 15px;
+    background-color: tomato; 
+    /* padding: 5px 5px;  */
+}
+
+.h2_mis_conocimientos{
+    font-size: 55px;
+    color: turquoise;
+}
+   
+.texto_mis_conocimientos{
+    font-size: 25px;
+    padding-top: 30px;
+  }
+
+.Container_mis_conocimientos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
+    text-align: center;
+ }
+
+ /* 3° SECCIÓN: CITA PERSONAL */
+   .cita{
+        background-image:url(./Imágenespexels-karolina-grabowska-4210804.jpg);
+        opacity: 85%;
+        background-position: bottom;background-size: cover;
+    }
+
+    .cita:hover{
+        background-color:rgb(245, 220, 212);
+    }
+    
+    .párrafo_cita{
+        font-size: 8px;
+    }
+
+    .párrafo_cita:hover{
+        color: rgb(255, 153, 0);
+    }
+
+    .autor_cita{
+        font-size: 7px;
+    } 
+
+/* 4° SECCIÓN */
+ #mis_proyectos{
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    display: block;
+    text-align:center;
+    background-image:url(./Imágenes/pexels-pixabay-66284.jpg);
+    background-position: top;
+    background-size: cover;
+   }
+
+/* Contenedor de la section "mis_proyectos" */
+  .Container_mis_proyectos{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+
+/* 5° SECCIÓN: FORMULARIOS */
+    .Container_Contáctame{
+        display: flex;
+        flex-direction: column;
+        background-image: url(./Imágenes/pexels-sl-wong-1023953.jpg);
+        background-position: left;
+        background-size: cover;
+    }
+
+/* Mis Redes Sociales */
+.formulario_contáctame{ 
+    width: 50%;
+    display: inline;  
+    justify-content: flex-start; 
+}
+
+.enlaces_a_mis_redes_formulario{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+    
+
+.enlaces_a_mis_redes_formulario a{ 
+    font-size: 18px;
+    padding: 15px; 
+}
+
+/* Formulario */
+    .formulario_escríbeme{ 
+        width: 50%;
+        display: inline-block;
+        padding-top: 20px;
+    }
+
+/* FOOTER */
+    footer{
+        width: 100%;
+        background-image: url(./Imágenes/rojo_alreves.jpg);
+        background-position: bottom;
+        background-size: cover;
+    }
+
+/* Contenedor principal */
+.Container_footer{
+     flex-direction: row;
+     display: inline-block;
+} 
+ 
+/* Enlaces internos */
+.enlaces_internos_footer{
+    display: none;
+     margin-top: 0;
+}
+
+.enlaces_internos_footer a{
+    display: inline-block;
+}
+
+/* AUDIO */
+audio{
+    width: 5px;
+    background-color: transparent;
+    color: transparent;
+}

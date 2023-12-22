@@ -11,28 +11,10 @@
  body{
     width: 100%;
     height: 100%;
-    font-family:'Nunito Sans', sans-serif
+    font-family: 'Nunito Sans', sans-serif; 
  }
 
-/* MEDIA QUERYS DEL BODY */
-
-/* 767px */
-@media(max-width:767px) {
-}
-
-/* 768-990 px */
-@media (max-width:768px) and (max-width:990px){
-}  
-
-@media(min-width: 991px){}
-/* ______________________________________ */
-
-
-/* AUDIO */
-
-
 /* MENÚ DE NAVEGACIÓN */
-
 nav{
     height: 20%;
     background-color:  white;
@@ -88,188 +70,115 @@ ul li a:hover{
 @media (max-width:768px) and (max-width:990px)
 @media(min-width: 991px) */
 
+
+
 /* INICIO DE SECCIONES (MAIN) */
     /* 1° SECCIÓN: PRESENTACIÓN */
-
-@media(max-width:1100px){
-    #presentación{
-        max-width: 100%; 
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        text-align: center; 
-        background-image: url(./Imágenes/pexels-sl-wong-1023953.jpg);
-        background-position: right;
-        background-size: cover;
-        padding-top: 80px; 
-    }
-
-    h2 .datos{
-        font-size: 30px;
-        text-align: center;
-    }
-
-    h1{
-        font-size: 35px;
-        text-align: center;
-    } 
-
-    p .presentación_descripción{
-        font-size:20px; 
-    }
-
-    .presentación_foto{
-        flex-direction: column; 
-        width: 400px;
-        height: 400px;
-        padding-top: 37px;
-        /* background-color: blueviolet; */
-        
-    }
-    
-    img{
-        height: 320px;
-        background-color: black;
-    }      
-}
- 
-/* fin del contenedor 1:presentación con media querys */
-/* ________________________________________ */
-
-
-/* contenedor principal, original */
-
  #presentación{
-        display: flex;
-        justify-content: space-between;
-        background-image: url(./Imágenes/pexels-sl-wong-1023953.jpg);
-        background-position: top;
-        background-size: cover;
-        padding-top: 55px; 
-        padding-bottom: 90px;
-    } 
-    
-    /* Div 1° de contenedor principal de #presentación  */
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./Imágenes/pexels-sl-wong-1023953.jpg);
+    background-position: top;
+    background-size: cover;
+    padding-top: 55px; 
+    padding-bottom: 90px;
+} 
 
-    .presentación_datos{
-        width: 50%;
-       padding: 80px 65px;
-    }
+/* Div 1° de contenedor principal de #presentación  */
+.presentación_datos{
+    width: 50%;
+   padding: 80px 65px;
+}
 
+/* h2 */
 h2{
     font-size: 50px;
 }
 
-h1{
-    font-size: 60px;
+/* h1 */
+  h1{
+    /* font-size: 55px; */
+    font-size: 70px;
  }
 
+/* texto presentación: descripción */     
 .presentación_descripción{
-    font-size:30px; 
+    font-size:25px; 
+     margin: 10px; /* ojo  */
 }
-    
- .boton-presentación{
-        border: 3px;
-        border-radius: 100px;
-        border-bottom: transparent;
-        font-size: 18px;
-        width: 180px;
-        cursor: pointer;
-        background-color: rgb(158, 64, 73);
-        padding-top: 100px;
+
+/* Botón */
+.boton-presentación{
+    border: 3px;
+    border-radius: 100px;
+    border-bottom: transparent;
+    font-size: 18px;
+    width: 180px;
+    cursor: pointer;
+    background-color: rgb(158, 64, 73);
+    /* padding-top: 100px; */
 }
     
 a .boton-presentación{
     padding: 10px;
-    margin:10px
+    /* margin:10px; */
  }
-    
-a .boton-presentación:hover{
-        background-color: rgb(129, 179, 118); 
-        opacity: 0.8; 
+
+ a .boton-presentación:hover{
+    background-color: rgb(129, 179, 118); 
+    opacity: 0.8; 
 }
 
- /* FIN DE LA 1° SECCIÓN: PRESENTACIÓN *
-   
+/* Div de la foto */
+.presentación_foto{
+    flex-direction: column; 
+    height: 450px;
+    padding-top: 37px;
+    /* background-color: blueviolet; */
+    }
+       
+img{
+        height: 400px;
+    }      
+
+ /* FIN DE LA 1° SECCIÓN: PRESENTACIÓN */
+
+  
  
  /* 2° SECCIÓN: CONOCIMIENTOS */
-
-@media(max-width:1100px){
-    #Mis_Conocimientos{ 
-        max-width: 100%; 
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        text-align: center; 
-        background-image: url(./Imágenes/pexels-sl-wong-1023953.jpg);
-        background-position: right;
-        background-size: cover;
-        padding-top: 80px; 
-    }
- }
-
  #Mis_Conocimientos{
     max-width:100%;
     display: flex;
     justify-content:center;
     flex-wrap: wrap;
     display: block;
-    /* padding: 60px 45px; */
+    padding: 60px 60px; 
     margin-top: 35px;
     background-image: url(./Imágenes/alreves.jpg);
     background-position: bottom;
     background-size: cover;
     text-align: center; 
 }
- 
-@media(max-width:1100px){
-    .h2_p_mis_conocimientos{
-        display: flex;
-        flex-direction: column;
-        width: 450px;
-        height: 450px;
-        padding-top: 37px;
-        background-color: tomato;
-        padding: 5px 5px;
-    }
-}
 
+/* Contenedor de título y párrafo */
+ /* .h2_p_mis_conocimientos{
+    margin: 27px 70px;
+     margin-right: 212px;
+    padding-bottom: 15px;
+    /* background-color: tomato;  */
+    /* padding: 5px 5px;  */
 
-/* @media(max-width:1100px){
-    .h2_mis_conocimientos{
-        font-size: 555px;
-        color: turquoise;
-    }
-} */
-    
+  
 .h2_mis_conocimientos{
-    font-size: 55px;
-    text-align: center;
-    padding-top: 20px;
-}
-
- 
-/* @media(max-width:1100px){
-    .texto_mis_conocimientos{
-        font-size: 20px;
-        padding-top: 20px;
-    }
-} */
+        font-size: 55px;
+        text-align: center;
+        padding-top: 30px;
+    } 
 
 .texto_mis_conocimientos{
   font-size: 25px;
   padding-top: 30px;
-}
-
-@media(max-width:1100px){
-    .Container_mis_conocimientos{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: auto; 
-        text-align: center;
-    }
 }
 
 .Container_mis_conocimientos{
@@ -402,23 +311,15 @@ a .boton-presentación:hover{
 }
 
 /* 3° SECCIÓN: CITA PERSONAL */
-
-@media (max-width:992px){
-    .cita{
-        background-image:url(./Imágenespexels-karolina-grabowska-4210804.jpg);
-        opacity: 85%;
-        background-position: bottom;background-size: cover;
-    }
-    /* .párrafo_cita{
+ /* .párrafo_cita{
         font-size: 8px;
     }
     .autor_cita{
         font-size: 7px;
     } */
-}
+
 
 .cita{
-    /* background-color: antiquewhite; */
     background-image:url(./Imágenes/pexels-karolina-grabowska-4210804.jpg);
     opacity: 85%;
     background-position: bottom;
@@ -450,20 +351,6 @@ a .boton-presentación:hover{
 }
 
 /* 4° SECCIÓN */
-
-@media(max-width:992px){
-    #mis_proyectos{
-    padding-bottom: 2em;
-    display: flex;
-    flex-direction: column;
-    display: block;
-    text-align:center;
-    background-image:url(./Imágenes/pexels-pixabay-66284.jpg);
-    background-position: top;
-    background-size: cover;
-   }
-}
-
 #mis_proyectos {
     display: flex;
     flex-wrap: wrap;
@@ -479,16 +366,6 @@ a .boton-presentación:hover{
  } 
  
  /* Contenedor de la section "mis_proyectos" */
-
- @media(max-width:992px){
-    .Container_mis_proyectos{
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 40px;
-    }
-
- }
-
  .Container_mis_proyectos{
      width: 90%;
      display: flex;
@@ -680,17 +557,6 @@ a .boton-presentación:hover{
  /* FIN DE LA SECCIÓN: MIS PROYECTOS */
 
  /* 5° SECCIÓN: FORMULARIOS */
-
-@media(max-width:992px){
-    .Container_Contáctame{
-        display: flex;
-        flex-direction: column;
-        background-image: url(./Imágenes/pexels-sl-wong-1023953.jpg);
-        background-position: left;
-        background-size: cover;
-    }
-}
-
 .Container_Contáctame{
     display: flex;
     text-align: left;
@@ -707,15 +573,6 @@ a .boton-presentación:hover{
 }
 
 /* Mis Redes Sociales */
-
-@media(max-width:992px){
-    .formulario_contáctame{ 
-        width: 50%;
-        display: inline;  
-        justify-content: flex-start; 
-    }
-}
-
 .formulario_contáctame{ 
     width: 50%;
     flex-direction: column; 
@@ -740,19 +597,13 @@ a .boton-presentación:hover{
     flex-wrap: wrap;
 }
 
-@media(max-width:992px){
-    .enlaces_a_mis_redes_formulario{
-        display:flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-    .enlaces_a_mis_redes_formulario a{ 
-        font-size: 18px;
-        padding: 15px; 
-    }
-} 
+.enlaces_a_mis_redes_formulario{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 
-.enlaces_a_mis_redes_formulario{ 
+.enlaces_a_mis_redes_formulario a{ 
     font-size: 18px;
     padding: 15px; 
 }
@@ -763,15 +614,6 @@ a .boton-presentación:hover{
 }
 
 /* Formulario */
-
-@media(max-width:992px){
-    .formulario_escríbeme{ 
-        width: 50%;
-        display: inline-block;
-        padding-top: 20px;
-    }
-}
-
 .formulario_escríbeme{
     max-width: 50%;
     display: inline-block;  
@@ -846,16 +688,6 @@ input[type="submit"]:hover{
 
 
 /* FOOTER */
-
-@media(max-width:992px) {
-    footer{
-        width: 100%;
-        background-image: url(./Imágenes/rojo_alreves.jpg);
-        background-position: bottom;
-        background-size: cover;
-    }
-}
-
 footer{
     background-image: url(./Imágenes/rojo_alreves.jpg);
     background-position: bottom;
@@ -864,14 +696,6 @@ footer{
 
 
 /* Contenedor principal */
-
-@media(max-width:992px) {
-   .Container_footer{
-    flex-direction: row;
-    display: inline-block;
-   } 
-}
-
 .Container_footer{
     display: flex;
     flex-direction: column;
@@ -883,19 +707,6 @@ footer{
 }
 
 /* Enlaces internos */
-
-@media(max-width:992px){
-    .enlaces_internos_footer{
-        display: none;
-        margin-top: 0;
-    }
-
-    .enlaces_internos_footer a{
-        display: inline-block;
-    }
-
-}
-
 .enlaces_internos_footer a{
     margin: 36px;
     padding-bottom: 55px;
