@@ -69,19 +69,20 @@
 
     /* Botón */
 .boton-presentación{
+    width: 180px; 
     border: 3px;
     border-radius: 100px;
     border-bottom: transparent;
     font-size: 18px;
-    width: 180px;
     cursor: pointer;
     background-color: rgb(158, 64, 73);
     padding-top: 100px;
 }
     
 a .boton-presentación{
+    margin: 0 auto;
     padding: 10px;
-    margin:10px
+    margin:0px 90px;
  }
 
  a .boton-presentación:hover{
