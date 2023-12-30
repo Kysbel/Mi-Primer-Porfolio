@@ -22,39 +22,44 @@
 }
 
 #presentación{
-    max-width: 100%; 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 100%; 
+    margin: 0 auto;
     flex-wrap: wrap;
     text-align: center; 
     background-image: url(./Imágenes/pexels-tara-winstead-7663174.jpg);
-    /* opacity: 80%; */
     background-size: cover;
     background-position: bottom; 
-    /* background-size: 480px 450px; */
-    padding-top: 30px; 
+    padding-top: 60px; 
     padding-bottom:2px;
 }
 
 /* Div 1° de contenedor principal de #presentación  */
 
-.presentación_datos{
-        margin: 0px 100px;
-        padding-bottom: 15px;
+.presentación_datos{ 
+    width: 90%;
+    margin: 0 auto; 
+    display: contents; 
+    text-align: center;
+    padding-bottom: 15px;
+        
     }
 
 /* h2 */
-    h2 .datos{
-        font-size: 15px;
+    .datos{
+        width: 70%;
+        margin: 0 auto;
+        padding-right: 5px;
+        font-size: 35px;
         text-align: center;
+
 }
 
 /* h1 */
     h1{
-    font-size: 35px;
-    text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 45px;
+        text-align: center;
    } 
 
 /* texto presentación: descripción */
@@ -117,6 +122,8 @@ a .boton-presentación{
     }
  /* Contenedor de título y párrafo */
  .h2_p_mis_conocimientos{
+    display: contents;
+    text-align: center;
     padding-bottom: 15px;
     margin-right: 10px;
 
