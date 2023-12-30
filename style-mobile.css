@@ -12,7 +12,7 @@
     width: 100%;
     height: 100%;
     font-family:'Nunito Sans', sans-serif;
-    background-color: blue;
+    background-color: white;
  }
 
  @media(max-width:900px){
@@ -25,12 +25,17 @@
     max-width: 100%; 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     text-align: center; 
-    background-image: url(./Imágenes/pexels-sl-wong-1023953.jpg);
-    background-position: right;
+    background-image: url(./Imágenes/pexels-tara-winstead-7663174.jpg);
+    /* opacity: 80%; */
     background-size: cover;
-    padding-top: 50px; 
+    background-position: bottom; 
+    /* background-size: 480px 450px; */
+    padding-top: 30px; 
+    padding-bottom:2px;
 }
 
 /* Div 1° de contenedor principal de #presentación  */
@@ -42,7 +47,7 @@
 
 /* h2 */
     h2 .datos{
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
 }
 
@@ -102,39 +107,99 @@ a .boton-presentación{
         flex-direction: column;
         flex-wrap: wrap;
         text-align: center; 
-        background-image: url(./Imágenes/pexels-sl-wong-1023953.jpg);
-        background-position: right;
-        background-size: cover;
-        padding-top: 80px; 
-        margin: 40px 30px;
+        background-image: url(./Imágenes/pexels-rachel-claire-4846457.jpg);
+        background-position: top; 
+        padding-top: 30px; 
+        padding-bottom:50px;
+        position: right;
+        /* margin: 40px 30px;  */
+        
     }
  /* Contenedor de título y párrafo */
  .h2_p_mis_conocimientos{
-    margin: 27px 70px;
-    margin-right: 212px;
     padding-bottom: 15px;
-    background-color: tomato; 
-    /* padding: 5px 5px;  */
+    margin-right: 10px;
+
 }
 
 .h2_mis_conocimientos{
     font-size: 55px;
-    color: turquoise;
+    text-align: center;
+    margin-left: -12px;
 }
    
 .texto_mis_conocimientos{
     font-size: 25px;
-    padding-top: 30px;
+    padding-top: 10px;
   }
 
 .Container_mis_conocimientos{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto; 
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 29px;
+}
+
+ .html{
+    width: 40%;
+    height: 220px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin: 10px;
+}
+
+.css{
+    width: 40%;
+    height: 220px;
+    border: 3px;
+    border-radius:  10px;
     text-align: center;
- }
+    background-color: whitesmoke;
+    /* background-color: rgb(243, 242, 229); */
+    margin: 10px;
+}
+
+.Sass{
+    width: 40%;
+    height:220px;
+    border: 3px;
+    border-radius:  10px;
+    text-align: center;
+    background-color: whitesmoke;
+    /* background-color: rgb(243, 242, 229); */
+    margin: 10px;
+}
+
+.Javascript{
+    width: 40%;
+    height: 220px;
+    border: 3px;
+    border-radius:  10px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 10px;
+}
+
+.React{
+    width: 40%;
+    height: 220px;
+    border: 3px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 10px;
+}
+
+.Git{
+    width: 40%;
+    height: 220px;
+    border: 3px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 10px;
+}
+
 
  /* 3° SECCIÓN: CITA PERSONAL */
    .cita{
@@ -148,7 +213,8 @@ a .boton-presentación{
     }
     
     .párrafo_cita{
-        font-size: 8px;
+        font-size: 25px;
+        padding-right: 30px;
     }
 
     .párrafo_cita:hover{
@@ -161,14 +227,26 @@ a .boton-presentación{
 
 /* 4° SECCIÓN */
  #mis_proyectos{
-    padding-bottom: 2em;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
-    display: block;
+    flex-wrap: wrap;
     text-align:center;
     background-image:url(./Imágenes/pexels-pixabay-66284.jpg);
     background-position: top;
     background-size: cover;
+    padding-bottom: 50px;
+   }
+
+   .h2_mis_proyectos{
+    padding-right: 52px;
+   }
+
+   .p_mis_proyectos{
+    /* font-size: 25px;
+    padding-top: 25px; */
+    font-size: 25px;
+    padding-top: 10px;
    }
 
 /* Contenedor de la section "mis_proyectos" */
