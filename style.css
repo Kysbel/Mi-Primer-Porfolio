@@ -401,7 +401,7 @@ a .boton-presentación{
  }
  .foto_Kysbel_Romero{
      width: 100%;
-     height: 80%; 
+     /* height: 80%;  */
      object-fit: cover;
      display: block;
  } 
@@ -417,7 +417,6 @@ a .boton-presentación{
      border: 1px solid #e0e0e0;
      border-radius:  10px; 
      text-align: center;
-     /* background-color: rgb(238, 238, 238);  */
      margin-bottom: 30px;  
      cursor: pointer;
  }
@@ -426,7 +425,6 @@ a .boton-presentación{
  }
  .foto_Generador_memes{
      width: 100%;
-     height: 80%;
      object-fit: cover;
      display: block;
  }
@@ -451,7 +449,6 @@ a .boton-presentación{
  
  .foto_Match_3{
      width: 100%;
-     height: 80%; 
      object-fit: cover;
      display: block;
      padding-top: 5px;
@@ -477,7 +474,6 @@ a .boton-presentación{
 
  .foto_Controlador_de_Gastos{
      width: 100%;
-     height: 80%;
      object-fit: cover;
      display: block;
      padding-top: 30px; 
@@ -502,8 +498,7 @@ a .boton-presentación{
     background-color: white; 
  }
  .foto_Administrador_de_Reuniones{
-     width: 100%;
-     height: 80%; 
+     width: 100%; 
      object-fit: cover;
      display: block;
  }
@@ -525,7 +520,6 @@ a .boton-presentación{
  }
  .foto_Todo_app{
      width: 100%;
-     height: 80%;
      object-fit: cover;
      display: block;
  }
@@ -547,7 +541,6 @@ a .boton-presentación{
  }
  .foto_Buscador_de_películas{
      width: 100%;
-     height: 80%; 
      object-fit: cover;
      display: block;
     
@@ -568,7 +561,7 @@ a .boton-presentación{
     border-radius: 8px;    
     margin: auto;
     margin-top: 40px;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     /* padding: 80px 60px;  */
 }
 
@@ -711,7 +704,7 @@ footer{
     justify-content: center;
     align-content: center;
     text-align: center;
-    padding: 85px; 
+    padding: 20px 25px;  
 }
 
 /* Enlaces internos */

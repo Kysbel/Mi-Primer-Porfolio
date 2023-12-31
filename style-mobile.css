@@ -275,9 +275,9 @@ a .boton-presentación{
         height: fit-content;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
+        /* justify-content: space-between;
         padding-bottom: 50px;
-        margin-top: 40px;
+        margin-top: 40px; */
 
     }
 
@@ -287,7 +287,7 @@ a .boton-presentación{
 
     /* 1° Div */
  .ic_Kysbel_Romero{
-    width: 40%;
+    width: 100%;
      border: 1px solid #e0e0e0;
      border-radius:  10px; 
      text-align: center;
@@ -305,7 +305,7 @@ a .boton-presentación{
  
  /* 2° Div */
  .ic_Generador_memes{
-     width: 40%;
+     width: 100%;
      border: 1px solid #e0e0e0;
      border-radius:  10px; 
      text-align: center;
@@ -317,7 +317,7 @@ a .boton-presentación{
  
  /* 3° Div */
  .ic_Match_3{
-     width: 40%;
+     width: 100%;
      border: 1px solid #e0e0e0;
      border-radius:  10px; 
      text-align: center;
@@ -329,7 +329,7 @@ a .boton-presentación{
  
  /* 4° Div */
  .ic_Controlador_de_Gastos{
-     width: 40%;
+     width: 100%;
      border: 1px solid #e0e0e0;
      border-radius:  10px; 
      text-align: center;
@@ -342,7 +342,7 @@ a .boton-presentación{
  /* 5° Div */
 
  .ic_Administrador_de_Reuniones{
-     width: 40%;
+     width: 100%;
      border: 1px solid #e0e0e0;
      border-radius:  10px; 
      text-align: center;
@@ -354,7 +354,7 @@ a .boton-presentación{
  
  /* 6° Div */
  .ic_Todo_app{
-     width: 40%;
+     width: 100%;
      border: 2px solid #e0e0e0;
      border-radius:  10px; 
      text-align: center;
@@ -366,7 +366,7 @@ a .boton-presentación{
  
  /* 7° Div */
  .ic_Buscador_de_películas{
-     width: 40%;
+     width: 100%;
      border: 1px solid #e0e0e0;
      border-radius:  10px;
      text-align: center;
@@ -504,27 +504,37 @@ a .boton-presentación{
 
 /* FOOTER */
     footer{
-        width: 100%;
+        width: 100%;   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         background-image: url(./Imágenes/rojo_alreves.jpg);
-        background-position: bottom;
+        background-position: top;
         background-size: cover;
+        /* padding: 25px 20px;  */
     }
-
-/* Contenedor principal */
-.Container_footer{
-     flex-direction: row;
-     display: inline-block;
-} 
  
 /* Enlaces internos */
 .enlaces_internos_footer{
-    display: none;
+    display: none; 
      margin-top: 0;
+}
+
+.img_redes{
+    width: 30px;
+    height: 30px;
 }
 
 .enlaces_internos_footer a{
     display: inline-block;
 }
+
+.p_footer{
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
 
 /* AUDIO */
 audio{
