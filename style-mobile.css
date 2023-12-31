@@ -26,9 +26,9 @@
     margin: 0 auto;
     flex-wrap: wrap;
     text-align: center; 
-    background-image: url(./Imágenes/pexels-tara-winstead-7663174.jpg);
+    background-image: url(./Imágenes/pexels-jess-bailey-designs-1172849.jpg);
     background-size: cover;
-    background-position: bottom; 
+    background-position: left; 
     padding-top: 60px; 
     padding-bottom:2px;
 }
@@ -415,6 +415,7 @@ a .boton-presentación{
 }
 
 .enlaces_a_mis_redes_formulario{
+    width: 150%;
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -427,6 +428,12 @@ a .boton-presentación{
     height: 25px;
 }
     
+.enlace_form_redes_email{
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+}
+
 
 .enlaces_a_mis_redes_formulario a{ 
     font-size: 18px;
