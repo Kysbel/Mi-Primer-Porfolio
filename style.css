@@ -618,8 +618,10 @@ a .boton-presentación{
 /* Formulario */
 .formulario_escríbeme{
     max-width: 50%;
-    display: inline-block;  
-    justify-content: flex-start; 
+    display: inline-block; 
+    flex-wrap: wrap; 
+    justify-content: flex-start;   
+    padding: 5px 15px;
 }
 
 .h2_formulario_escríbeme{
@@ -657,11 +659,15 @@ input{
 }
 
 .input_email{
-    padding: 12px 100px;
+    padding: 12px 60px;
 }
 
 label{
     font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+    font-weight: 600;
+    margin-top: 5px;
 }
 
 textarea{
