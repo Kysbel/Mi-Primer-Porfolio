@@ -565,12 +565,11 @@ a .boton-presentación{
     background-image: url(./Imágenes/pexels-karolina-grabowska-7291997.jpg);
     background-position: bottom;
     background-size: cover;
-    /* background-color: antiquewhite; */
     border-radius: 8px;    
     margin: auto;
-    margin-top: 70px;
+    margin-top: 40px;
     margin-bottom: 70px;
-    padding: 80px 60px; 
+    /* padding: 80px 60px;  */
 }
 
 /* Mis Redes Sociales */
@@ -602,6 +601,8 @@ a .boton-presentación{
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: start;
+    align-items: start;
 }
 
 .enlaces_a_mis_redes_formulario a{ 

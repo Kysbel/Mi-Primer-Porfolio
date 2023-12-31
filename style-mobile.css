@@ -276,7 +276,9 @@ a .boton-presentación{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        padding-bottom: 50px;
         margin-top: 40px;
+
     }
 
     .ic_{
@@ -375,25 +377,54 @@ a .boton-presentación{
  }
  
 /* 5° SECCIÓN: FORMULARIOS */
-    .Container_Contáctame{
+    .Container_Contáctame{ 
+        max-width: 100%;
         display: flex;
-        flex-direction: column;
+         flex-wrap: wrap;
+        flex-direction: column; 
+        text-align:center;
         background-image: url(./Imágenes/pexels-sl-wong-1023953.jpg);
-        background-position: left;
+        background-position: top;
         background-size: cover;
+        padding-top: 50px; 
     }
 
 /* Mis Redes Sociales */
 .formulario_contáctame{ 
-    width: 50%;
-    display: inline;  
+    width: 100%;
+    flex-direction: column;
     justify-content: flex-start; 
+}
+
+.h2_formulario{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.p_formulario{
+    font-size: 18px;
+    padding: 5%;
+    padding-top: 10px;
+    text-align: center; 
+}
+
+.Container_enlaces{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .enlaces_a_mis_redes_formulario{
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.enlace_form_redes{
+    width: 25px;
+    height: 25px;
 }
     
 
@@ -404,9 +435,43 @@ a .boton-presentación{
 
 /* Formulario */
     .formulario_escríbeme{ 
-        width: 50%;
-        display: inline-block;
-        padding-top: 20px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start; 
+        padding: 15px 10px;
+    }
+   
+    .h2_formulario_escríbeme{
+        width: 0;
+        margin: 0 auto;
+        font-size: 40px;
+        padding-bottom: 10px;
+
+    }
+
+    input{
+        border: 5px;
+        border-radius: 15px;
+        padding: 10px;
+        margin: 8px;
+    }
+
+    .formulario_escríbeme_nombreyapellido{
+        display: flex;
+        flex-direction: column;
+        font-size: 18px;
+        padding: 20px 20px;
+        margin-bottom: 10px;
+        margin-bottom: 18px;
+    }
+
+    .input_container_email{
+        flex-grow: initial;
+        display: block;
+        flex-direction: column;
+        font-size: 18px;
+        padding: 10px 25px;
+        margin-bottom: 10px;
     }
 
 /* FOOTER */
