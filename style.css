@@ -373,8 +373,7 @@ a .boton-presentación{
      flex-wrap: wrap;
      justify-content: space-around;
      text-align: center;
-     margin: 50px;
-     /* background-color:rgb(238, 238, 238); */
+     /* margin: 50px; */
  }
     
  .h2_mis_proyectos{
@@ -388,7 +387,7 @@ a .boton-presentación{
      margin: auto;
  }
  /* 1° Div */
- .Kysbel_Romero{
+ .ic_Kysbel_Romero{
     width: 30%;
      border: 1px solid #e0e0e0;
      border-radius:  10px; 
@@ -397,7 +396,7 @@ a .boton-presentación{
      margin-bottom: 30px;  
      cursor: pointer;
  }
- .Kysbel_Romero:hover{
+ .ic_Kysbel_Romero:hover{
      background-color: white;
  }
  .foto_Kysbel_Romero{
@@ -408,11 +407,12 @@ a .boton-presentación{
  } 
 
  .p_Kysbel_Romero{
-     font-size: 20px;
+    font-size: 18px;
+     /* font-size: 20px; */
  }
 
  /* 2° Div */
- .Generador_memes{
+ .ic_Generador_memes{
      width: 30%;
      border: 1px solid #e0e0e0;
      border-radius:  10px; 
@@ -421,7 +421,7 @@ a .boton-presentación{
      margin-bottom: 30px;  
      cursor: pointer;
  }
- .Generador_memes:hover{
+ .ic_Generador_memes:hover{
      background-color: white;
  }
  .foto_Generador_memes{
@@ -432,11 +432,11 @@ a .boton-presentación{
  }
 
  .p_Generador_memes{
-     font-size: 20px;
+     font-size: 18px;
  }
 
  /* 3° Div */
- .Match_3{
+ .ic_Match_3{
      width: 30%;
      border: 1px solid #e0e0e0;
      border-radius:  10px; 
@@ -445,7 +445,7 @@ a .boton-presentación{
      margin-bottom: 30px;
      cursor: pointer;
  }
- .Match_3:hover{
+ .ic_Match_3:hover{
      background-color: white;
  }
  
@@ -458,11 +458,11 @@ a .boton-presentación{
  }
 
  .p_Match{
-     font-size: 20px;
+     font-size: 18px;
  }
 
  /* 4° Div */
- .Controlador_de_Gastos{
+ .ic_Controlador_de_Gastos{
      width: 30%;
      border: 1px solid #e0e0e0;
      border-radius:  10px; 
@@ -471,7 +471,7 @@ a .boton-presentación{
      margin-bottom: 30px;
      cursor: pointer;
  }
- .Controlador_de_Gastos:hover{
+ .ic_Controlador_de_Gastos:hover{
      background-color: white;
  }
 
@@ -484,12 +484,12 @@ a .boton-presentación{
  }
 
  .p_Controlador_de_Gastos{
-     font-size: 20px;
+     font-size: 18px;
  }
 
  /* 5° Div */
 
- .Administrador_de_Reuniones{
+ .ic_Administrador_de_Reuniones{
      width: 30%;
      border: 1px solid #e0e0e0;
      border-radius:  10px; 
@@ -498,7 +498,7 @@ a .boton-presentación{
      margin-bottom: 30px; 
      cursor: pointer;
  }
- .Administrador_de_Reuniones:hover{
+ .ic_Administrador_de_Reuniones:hover{
     background-color: white; 
  }
  .foto_Administrador_de_Reuniones{
@@ -508,10 +508,10 @@ a .boton-presentación{
      display: block;
  }
  .p_Administrador_de_Reuniones{
-     font-size: 20px;
+     font-size: 18px;
  }
  /* 6° Div */
- .Todo_app{
+ .ic_Todo_app{
      width: 30%;
      border: 2px solid #e0e0e0;
      border-radius:  10px; 
@@ -519,7 +519,7 @@ a .boton-presentación{
      margin-bottom: 30px; 
      cursor: pointer;
  }
- .Todo_app:hover{
+ .ic_Todo_app:hover{
      background-color: white;
    
  }
@@ -530,10 +530,10 @@ a .boton-presentación{
      display: block;
  }
  .p_Todo_app{
-     font-size: 20px;
+     font-size: 18px;
  }
  /* 7° Div */
- .Buscador_de_películas{
+ .ic_Buscador_de_películas{
      width: 30%;
      border: 1px solid #e0e0e0;
      border-radius:  10px;
@@ -542,7 +542,7 @@ a .boton-presentación{
      margin-bottom: 30px;
      cursor: pointer;
  }
- .Buscador_de_películas:hover{
+ .ic_Buscador_de_películas:hover{
      background-color: white;
  }
  .foto_Buscador_de_películas{
@@ -553,7 +553,7 @@ a .boton-presentación{
     
  }
  .p_Buscador_de_películas{
-     font-size: 20px;
+     font-size: 18px;
  }
  /* FIN DE LA SECCIÓN: MIS PROYECTOS */
 

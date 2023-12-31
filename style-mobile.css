@@ -272,11 +272,108 @@ a .boton-presentación{
 
 /* Contenedor de la section "mis_proyectos" */
   .Container_mis_proyectos{
+        height: fit-content;
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
         margin-top: 40px;
     }
 
+    .ic_{
+        width: 48%;
+    }
+
+    /* 1° Div */
+ .ic_Kysbel_Romero{
+    width: 40%;
+     border: 1px solid #e0e0e0;
+     border-radius:  10px; 
+     text-align: center;
+     margin: 5px 6px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     /* margin-bottom: 30px;   */
+     cursor: pointer;
+ }
+
+ .p_Kysbel_Romero{
+    font-size: 20px;
+    color: red;
+ }
+ 
+ /* 2° Div */
+ .ic_Generador_memes{
+     width: 40%;
+     border: 1px solid #e0e0e0;
+     border-radius:  10px; 
+     text-align: center;
+     margin: 5px 6px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     cursor: pointer;
+ }
+ 
+ /* 3° Div */
+ .ic_Match_3{
+     width: 40%;
+     border: 1px solid #e0e0e0;
+     border-radius:  10px; 
+     text-align: center;
+     margin:5px 6px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     cursor: pointer;
+ }
+ 
+ /* 4° Div */
+ .ic_Controlador_de_Gastos{
+     width: 40%;
+     border: 1px solid #e0e0e0;
+     border-radius:  10px; 
+     text-align: center;
+     margin:5px 6px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     cursor: pointer;
+ }
+ 
+ /* 5° Div */
+
+ .ic_Administrador_de_Reuniones{
+     width: 40%;
+     border: 1px solid #e0e0e0;
+     border-radius:  10px; 
+     text-align: center;
+     margin-bottom: 30px;
+     padding-top: 10px; 
+     padding-bottom: 10px;
+     cursor: pointer;
+ }
+ 
+ /* 6° Div */
+ .ic_Todo_app{
+     width: 40%;
+     border: 2px solid #e0e0e0;
+     border-radius:  10px; 
+     text-align: center;
+     margin:5px 6px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     cursor: pointer;
+ }
+ 
+ /* 7° Div */
+ .ic_Buscador_de_películas{
+     width: 40%;
+     border: 1px solid #e0e0e0;
+     border-radius:  10px;
+     text-align: center;
+     margin:5px 6px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     cursor: pointer;
+ }
+ 
 /* 5° SECCIÓN: FORMULARIOS */
     .Container_Contáctame{
         display: flex;
